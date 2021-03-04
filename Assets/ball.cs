@@ -14,12 +14,12 @@ public class ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("ballvelocity:"+rb.velocity);
+        //Debug.Log("ballvelocity:"+rb.velocity);
 
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("bollcollision:"+collision.gameObject.tag);
+        //Debug.Log("bollcollision:"+collision.gameObject.tag);
         if (collision.gameObject.tag.Equals("Jetbumper"))
         {
             float x = rb.velocity.x * 20f;
