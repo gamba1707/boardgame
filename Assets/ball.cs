@@ -15,7 +15,7 @@ public class ball : MonoBehaviour
     void Update()
     {
         //Debug.Log("ballvelocity:"+rb.velocity);
-
+        //rb.velocity = new Vector3(0, 0, -5);
     }
     private void OnCollisionEnter(Collision collision)
     {

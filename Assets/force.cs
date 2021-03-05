@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class force : MonoBehaviour
 {
+    public GameObject ball;
+    Rigidbody ballrb;
     float x;
     bool downon,ballon;
     // Start is called before the first frame update
     void Start()
     {
         x = 0;
+        ballrb = ball.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -24,6 +27,11 @@ public class force : MonoBehaviour
         if (Input.GetButtonUp("Down"))
         {
             downon = false;
+            if (ballon)
+            {
+                Debug.Log("wow!");
+                ballrb.velocity=new Vector3(0,0,x*30);
+            }
         }
         if (downon)
         {
@@ -35,7 +43,7 @@ public class force : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag.Equals("ball"))
@@ -43,7 +51,7 @@ public class force : MonoBehaviour
             ballon = true;
         }
     }
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider collision)
     {
         Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag.Equals("ball"))
