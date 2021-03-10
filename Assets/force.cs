@@ -18,7 +18,7 @@ public class force : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(ballon);
+        Debug.Log(transform.localPosition);
         
         if (Input.GetButtonDown("Down"))
         {
@@ -30,8 +30,10 @@ public class force : MonoBehaviour
             if (ballon)
             {
                 Debug.Log("wow!");
-                ballrb.velocity=new Vector3(0,0,x*30);
+                ballrb.velocity=new Vector3(0,0,x*25);
             }
+            x = 0;
+            StartCoroutine("back");
         }
         if (downon)
         {
@@ -41,6 +43,22 @@ public class force : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.01f);
             }
         }
+    }
+
+    IEnumerator back()
+    {
+        while (true)
+        {
+            transform.localPosition = Vector3.Lerp(transform.position, new Vector3(5.71f, 5.8f, -9f), Time.deltaTime*0.1f);
+            if (transform.localPosition.z >= -9f)
+            {
+                break;
+            }
+            yield return null;
+        }
+        yield return null;
+        transform.localPosition = new Vector3(5.71f, 5.8f, -9f);
+        yield break;
     }
 
     private void OnTriggerEnter(Collider collision)
