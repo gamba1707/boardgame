@@ -68,6 +68,7 @@
     <Compile Include="Assets\gamba1707\force.cs" />
     <Compile Include="Assets\gamba1707\Play.cs" />
     <Compile Include="Assets\gamba1707\Play2.cs" />
+    <Compile Include="Assets\gamba1707\re_side.cs" />
     <Compile Include="Assets\gamba1707\score.cs" />
     <Compile Include="Assets\gamba1707\side.cs" />
     <Compile Include="Assets\Utsumi\Oder\AddEnerlgy.cs" />

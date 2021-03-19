@@ -16,15 +16,16 @@ public class side : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(ballin);
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag.Equals("ball"))
         {
-            StartCoroutine("ballmove");
-            ballin = true;
+            
+                StartCoroutine("ballmove");
+                ballin = true;
         }
     }
     private void OnTriggerExit(Collider other)

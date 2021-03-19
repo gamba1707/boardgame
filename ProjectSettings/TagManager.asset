@@ -7,6 +7,8 @@ TagManager:
   - Jetbumper
   - ball
   - Start
+  - scoretext
+  - side
   layers:
   - Default
   - TransparentFX
