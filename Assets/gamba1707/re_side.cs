@@ -16,12 +16,24 @@ public class re_side : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rcount == 3)
+        if (gameObject.name.Substring(0, 1).Equals("L"))
         {
-            hi.SetActive(false);
-            rcount = 0;
+            if (lcount == 3)
+            {
+                hi.SetActive(false);
+                lcount = 0;
+            }
+            if (lcount == 0) GetComponent<Renderer>().material = yellowoff;
         }
-        if(rcount==0) GetComponent<Renderer>().material = yellowoff;
+        if (gameObject.name.Substring(0, 1).Equals("R"))
+        {
+            if (rcount == 3)
+            {
+                hi.SetActive(false);
+                rcount = 0;
+            }
+            if (rcount == 0) GetComponent<Renderer>().material = yellowoff;
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -30,9 +42,17 @@ public class re_side : MonoBehaviour
             
             if (GetComponent<Renderer>().material.name.Equals("yellow_nomal (Instance)"))
             {
+                if (gameObject.name.Substring(0, 1).Equals("L"))
+                {
+                    lcount++;
+                    score.addpoint(700);
+                    Debug.Log(lcount);
+                    GetComponent<Renderer>().material = yellowon;
+                }
                 if (gameObject.name.Substring(0, 1).Equals("R"))
                 {
                     rcount++;
+                    score.addpoint(700);
                     Debug.Log(rcount);
                     GetComponent<Renderer>().material = yellowon;
                 }

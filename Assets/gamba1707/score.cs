@@ -21,6 +21,10 @@ public class score : MonoBehaviour
             scoretext.text = point.ToString();
         }
     }
+    public static void addpoint(int x)
+    {
+        point += x;
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
