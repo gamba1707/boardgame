@@ -34,4 +34,11 @@ public class score : MonoBehaviour
             Debug.Log("point:" + point);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        
+            point += int.Parse(gameObject.name.Substring(0, 4));
+            Debug.Log("point:" + point);
+    }
 }
