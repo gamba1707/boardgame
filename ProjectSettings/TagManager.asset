@@ -9,6 +9,7 @@ TagManager:
   - Start
   - scoretext
   - side
+  - messagetext
   layers:
   - Default
   - TransparentFX

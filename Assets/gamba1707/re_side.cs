@@ -56,6 +56,11 @@ public class re_side : MonoBehaviour
                     Debug.Log(rcount);
                     GetComponent<Renderer>().material = yellowon;
                 }
+                if (gameObject.name.Substring(0, 1).Equals("c"))
+                {
+                    score.addpoint(700);
+                    GetComponent<Renderer>().material = yellowon;
+                }
             }
         }
         
