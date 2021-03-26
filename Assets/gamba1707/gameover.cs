@@ -24,6 +24,7 @@ public class gameover : MonoBehaviour
         {
             ball--;
             other.gameObject.transform.position = new Vector3(5.8f,4.6f,-9.3f);
+            score.namecheck("gameover");
             if (ball <= 0)
             {
                 naichilab.RankingLoader.Instance.SendScoreAndShowRanking(score.point);

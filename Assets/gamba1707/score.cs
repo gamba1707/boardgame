@@ -34,23 +34,54 @@ public class score : MonoBehaviour
         if (collision.gameObject.tag.Equals("ball"))
         {
             point += int.Parse(gameObject.name.Substring(0, 4));
+            namecheck(gameObject.name);
             Debug.Log("point:" + point);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("ball"))
+        {
             point += int.Parse(gameObject.name.Substring(0, 4));
-        namecheck(gameObject.name);
+            namecheck(gameObject.name);
             Debug.Log("point:" + point);
+        }
     }
 
-    void namecheck(string name)
+    public static void namecheck(string name)
     {
         switch (name)
         {
             case "0500_kaiten":
                 messagetext.text = "回転フラグ\n500点";
+                break;
+            case "0500":
+                messagetext.text = "ジェットバンパー\n500点";
+                break;
+            case "1500":
+                messagetext.text = "ジェットバンパー\n1500点";
+                break;
+            case "L":
+                messagetext.text = "ハザードターゲット\n700点";
+                break;
+            case "R":
+                messagetext.text = "ハザードターゲット\n700点";
+                break;
+            case "L3":
+                messagetext.text = "左下ゲート開放！";
+                break;
+            case "R3":
+                messagetext.text = "右下ゲート開放！";
+                break;
+            case "ca-bu":
+                messagetext.text = "カーブレーン通過\n1500点";
+                break;
+            case "0500_リバウンド":
+                messagetext.text = "リバウンド\n500点";
+                break;
+            case "gameover":
+                messagetext.text = "クラッシュ！";
                 break;
         }
     }

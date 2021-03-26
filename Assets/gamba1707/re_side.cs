@@ -21,6 +21,7 @@ public class re_side : MonoBehaviour
             if (lcount == 3)
             {
                 hi.SetActive(false);
+                score.namecheck("L3");
                 lcount = 0;
             }
             if (lcount == 0) GetComponent<Renderer>().material = yellowoff;
@@ -30,6 +31,7 @@ public class re_side : MonoBehaviour
             if (rcount == 3)
             {
                 hi.SetActive(false);
+                score.namecheck("R3");
                 rcount = 0;
             }
             if (rcount == 0) GetComponent<Renderer>().material = yellowoff;
@@ -46,6 +48,7 @@ public class re_side : MonoBehaviour
                 {
                     lcount++;
                     score.addpoint(700);
+                    score.namecheck("L");
                     Debug.Log(lcount);
                     GetComponent<Renderer>().material = yellowon;
                 }
@@ -53,12 +56,14 @@ public class re_side : MonoBehaviour
                 {
                     rcount++;
                     score.addpoint(700);
+                    score.namecheck("R");
                     Debug.Log(rcount);
                     GetComponent<Renderer>().material = yellowon;
                 }
                 if (gameObject.name.Substring(0, 1).Equals("c"))
                 {
-                    score.addpoint(700);
+                    score.addpoint(1500);
+                    score.namecheck("ca-bu");
                     GetComponent<Renderer>().material = yellowon;
                 }
             }
