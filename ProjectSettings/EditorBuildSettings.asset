@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity
     guid: 152244f5855414ac4a3874f14efa583c
+  - enabled: 1
+    path: Assets/Utsumi/UtsumiScene.unity
+    guid: a32b60e34f22a9446a0d31132258c109
   m_configObjects: {}
