@@ -33,7 +33,8 @@ public class score : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("ball"))
         {
-            point += int.Parse(gameObject.name.Substring(0, 4));
+            if(gameObject.name.Equals("0500")&& gameObject.name.Equals("1500")) point += int.Parse(gameObject.name.Substring(0, 4))*re_side.lightstate;
+            else point += int.Parse(gameObject.name.Substring(0, 4));
             namecheck(gameObject.name);
             Debug.Log("point:" + point);
         }
@@ -57,10 +58,10 @@ public class score : MonoBehaviour
                 messagetext.text = "回転フラグ\n500点";
                 break;
             case "0500":
-                messagetext.text = "ジェットバンパー\n500点";
+                messagetext.text = "ジェットバンパー\n"+500 * re_side.lightstate + "点";
                 break;
             case "1500":
-                messagetext.text = "ジェットバンパー\n1500点";
+                messagetext.text = "ジェットバンパー\n" + 1500 * re_side.lightstate + "点";
                 break;
             case "L":
                 messagetext.text = "ハザードターゲット\n700点";
@@ -74,11 +75,26 @@ public class score : MonoBehaviour
             case "R3":
                 messagetext.text = "右下ゲート開放！";
                 break;
+            case "enter":
+                messagetext.text = "再突入レーン\n2000点";
+                break;
             case "ca-bu":
                 messagetext.text = "カーブレーン通過\n1500点";
                 break;
             case "0500_リバウンド":
                 messagetext.text = "リバウンド\n500点";
+                break;
+            case "powerup2":
+                messagetext.text = "パワーアップ第2段階";
+                break;
+            case "powerup3":
+                messagetext.text = "パワーアップ第3段階";
+                break;
+            case "powerup4":
+                messagetext.text = "パワーアップ第4段階！\nおめでとう！";
+                break;
+            case "bag":
+                messagetext.text = "バグです！\n初期化...";
                 break;
             case "gameover":
                 messagetext.text = "クラッシュ！";

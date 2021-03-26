@@ -5,11 +5,14 @@ using UnityEngine;
 public class re_side : MonoBehaviour
 {
     public GameObject hi;
-    static int lcount, rcount;
+    GameObject[] lights;
+    public static int lcount, rcount,entercount,lightstate,statetime;
     public Material yellowoff,yellowon;
     // Start is called before the first frame update
     void Start()
     {
+        lights = GameObject.FindGameObjectsWithTag("light");
+        lightstate = 1;
         GetComponent<Renderer>().material = yellowoff;
     }
 
@@ -36,6 +39,70 @@ public class re_side : MonoBehaviour
             }
             if (rcount == 0) GetComponent<Renderer>().material = yellowoff;
         }
+        if (gameObject.name.Substring(0, 1).Equals("e"))
+        {
+            if (entercount < 3)
+            {
+                lightstate = 1;
+                foreach (GameObject light in lights)
+                {
+                    light.GetComponent<Renderer>().material.color = Color.blue;
+                }
+            }
+            else if (entercount <=9)
+            {
+                statetime = (int)Time.deltaTime;
+                if (statetime >= 61)
+                {
+                    if (entercount <= 6)
+                    {
+                        entercount = 0;
+                        StartCoroutine("zero");
+                    }
+                    else if (entercount <= 9)
+                    {
+                        entercount = 6;
+                        StartCoroutine("zero");
+                    }
+                }
+                if (entercount == 0|| entercount == 3 || entercount == 6) GetComponent<Renderer>().material = yellowoff;
+            }
+        }
+    }
+    IEnumerator zero()
+    {
+        statetime = 0;
+        if (entercount == 3)
+        {
+            GetComponent<Renderer>().material = yellowoff;
+            score.namecheck("powerup2");
+            lightstate = 2;
+            foreach (GameObject light in lights)
+            {
+                light.GetComponent<Renderer>().material.color = Color.green;
+            }
+        }
+        if (entercount == 6)
+        {
+            GetComponent<Renderer>().material = yellowoff;
+            score.namecheck("powerup3");
+            lightstate = 3;
+            foreach (GameObject light in lights)
+            {
+                light.GetComponent<Renderer>().material.color = Color.yellow;
+            }
+        }
+        if (entercount == 9)
+        {
+            GetComponent<Renderer>().material = yellowoff;
+            score.namecheck("powerup4");
+            lightstate = 4;
+            foreach (GameObject light in lights)
+            {
+                light.GetComponent<Renderer>().material.color = Color.red;
+            }
+        }
+        yield break;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -58,6 +125,25 @@ public class re_side : MonoBehaviour
                     score.addpoint(700);
                     score.namecheck("R");
                     Debug.Log(rcount);
+                    GetComponent<Renderer>().material = yellowon;
+                }
+                if (gameObject.name.Substring(0, 1).Equals("e"))//一番上のやつ
+                {
+                    entercount++;
+                    score.addpoint(2000);
+                    score.namecheck("enter");
+                    if (entercount == 3)
+                    {
+                        StartCoroutine("zero");
+                    }
+                    if (entercount == 6)
+                    {
+                        StartCoroutine("zero");
+                    }
+                    if (entercount == 9)
+                    {
+                        StartCoroutine("zero");
+                    }
                     GetComponent<Renderer>().material = yellowon;
                 }
                 if (gameObject.name.Substring(0, 1).Equals("c"))

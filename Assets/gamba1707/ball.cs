@@ -16,6 +16,11 @@ public class ball : MonoBehaviour
     {
         //Debug.Log("ballvelocity:"+rb.velocity);
         //rb.velocity = new Vector3(0, 0, -5);
+        if (gameObject.transform.localPosition.y <= -10f)
+        {
+            gameObject.transform.position = new Vector3(5.8f, 4.6f, -9.3f);
+            score.namecheck("bag");
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {

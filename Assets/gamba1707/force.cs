@@ -49,15 +49,15 @@ public class force : MonoBehaviour
     {
         while (true)
         {
-            transform.localPosition = Vector3.Lerp(transform.position, new Vector3(5.71f, 5.8f, -9f), Time.deltaTime*0.1f);
-            if (transform.localPosition.z >= -9f)
+            transform.localPosition = Vector3.Lerp(transform.position, new Vector3(5.71f, 5.8f, -10f), Time.deltaTime*0.1f);
+            if (transform.localPosition.z >= -10f)
             {
                 break;
             }
             yield return null;
         }
         yield return null;
-        transform.localPosition = new Vector3(5.71f, 5.8f, -9f);
+        transform.localPosition = new Vector3(5.71f, 5.8f, -10f);
         yield break;
     }
 
