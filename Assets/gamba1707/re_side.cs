@@ -6,7 +6,8 @@ public class re_side : MonoBehaviour
 {
     public GameObject hi;
     GameObject[] lights;
-    public static int lcount, rcount,entercount,lightstate,statetime;
+    public static int lcount, rcount,entercount,lightstate;
+    static float statetime;
     public Material yellowoff,yellowon;
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,8 @@ public class re_side : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(Mathf.Floor(statetime));
+        
         if (gameObject.name.Substring(0, 1).Equals("L"))
         {
             if (lcount == 3)
@@ -51,27 +54,29 @@ public class re_side : MonoBehaviour
             }
             else if (entercount <=9)
             {
-                statetime = (int)Time.deltaTime;
-                if (statetime >= 61)
+                statetime += Time.deltaTime;
+                //Debug.Log("statecount:" + statetime);
+                if (Mathf.Floor(statetime) >= 61)
                 {
                     if (entercount <= 6)
                     {
                         entercount = 0;
-                        StartCoroutine("zero");
+                        zero();
                     }
                     else if (entercount <= 9)
                     {
                         entercount = 6;
-                        StartCoroutine("zero");
+                        zero();
                     }
                 }
                 if (entercount == 0|| entercount == 3 || entercount == 6) GetComponent<Renderer>().material = yellowoff;
             }
         }
     }
-    IEnumerator zero()
+    void zero()
     {
         statetime = 0;
+        Debug.Log("zero");
         if (entercount == 3)
         {
             GetComponent<Renderer>().material = yellowoff;
@@ -102,7 +107,6 @@ public class re_side : MonoBehaviour
                 light.GetComponent<Renderer>().material.color = Color.red;
             }
         }
-        yield break;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -132,18 +136,7 @@ public class re_side : MonoBehaviour
                     entercount++;
                     score.addpoint(2000);
                     score.namecheck("enter");
-                    if (entercount == 3)
-                    {
-                        StartCoroutine("zero");
-                    }
-                    if (entercount == 6)
-                    {
-                        StartCoroutine("zero");
-                    }
-                    if (entercount == 9)
-                    {
-                        StartCoroutine("zero");
-                    }
+                    zero();
                     GetComponent<Renderer>().material = yellowon;
                 }
                 if (gameObject.name.Substring(0, 1).Equals("c"))

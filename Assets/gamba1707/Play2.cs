@@ -51,7 +51,7 @@ public class Play2 : MonoBehaviour
     }
     private void move(int x)
     {
-        transform.Translate(0.1f*x,0,0);
-        transform.Translate(-0.1f * x, 0, 0);
+        transform.Translate(x,0,0);
+        transform.Translate(-x, 0, 0);
     }
 }
