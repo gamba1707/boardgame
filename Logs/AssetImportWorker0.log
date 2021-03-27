@@ -107,3 +107,60 @@ System memory in use after: 64.0 MB.
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 1656.
 Total: 2.866900 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.043600 ms MarkObjects: 2.363500 ms  DeleteObjects: 0.282900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.0 MB.
+System memory in use after: 70.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 2.875300 ms (FindLiveObjects: 0.462900 ms CreateObjectMapping: 0.120600 ms MarkObjects: 1.939900 ms  DeleteObjects: 0.350500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3971.823557 seconds.
+  path: Assets/turibito.fbx
+  artifactKey: Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/turibito.fbx using Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf72ddcaf299c258e485684d10d7fe5') in 0.264612 seconds
+  Import took 0.268005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 367.019363 seconds.
+  path: Assets/gamba1707/turibito.fbx
+  artifactKey: Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/turibito.fbx using Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc5418f3f3442325b5f2885f951a5c8') in 0.141493 seconds
+  Import took 0.145194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.305997 seconds.
+  path: Assets/gamba1707/turibito.fbx
+  artifactKey: Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/turibito.fbx using Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9f1e22e019630843b1dddbce44a160') in 0.131384 seconds
+  Import took 0.134800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.475319 seconds.
+  path: Assets/gamba1707/turibito 1.fbx
+  artifactKey: Guid(c50b3965ad445f64bb55ba531e497c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/turibito 1.fbx using Guid(c50b3965ad445f64bb55ba531e497c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbe9ac63b6b35bd3198592741b1e38d') in 0.141443 seconds
+  Import took 0.145155 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
