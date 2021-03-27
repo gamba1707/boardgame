@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +6,9 @@ public class re_side : MonoBehaviour
 {
     public GameObject hi;
     GameObject[] lights;
-    public static int lcount, rcount,entercount,lightstate;
+    public static int lcount, rcount, entercount, lightstate;
     static float statetime;
-    public Material yellowoff,yellowon;
+    public Material yellowoff, yellowon;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +21,7 @@ public class re_side : MonoBehaviour
     void Update()
     {
         Debug.Log(Mathf.Floor(statetime));
-        
+
         if (gameObject.name.Substring(0, 1).Equals("L"))
         {
             if (lcount == 3)
@@ -52,7 +52,7 @@ public class re_side : MonoBehaviour
                     light.GetComponent<Renderer>().material.color = Color.blue;
                 }
             }
-            else if (entercount <=9)
+            else if (entercount <= 9)
             {
                 statetime += Time.deltaTime;
                 //Debug.Log("statecount:" + statetime);
@@ -69,7 +69,7 @@ public class re_side : MonoBehaviour
                         zero();
                     }
                 }
-                if (entercount == 0|| entercount == 3 || entercount == 6) GetComponent<Renderer>().material = yellowoff;
+                if (entercount == 0 || entercount == 3 || entercount == 6) GetComponent<Renderer>().material = yellowoff;
             }
         }
     }
@@ -112,7 +112,7 @@ public class re_side : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("ball"))
         {
-            
+
             if (GetComponent<Renderer>().material.name.Equals("yellow_nomal (Instance)"))
             {
                 if (gameObject.name.Substring(0, 1).Equals("L"))
@@ -147,7 +147,7 @@ public class re_side : MonoBehaviour
                 }
             }
         }
-        
-            
+
+
     }
 }
