@@ -24,7 +24,7 @@ public class CountScore : MonoBehaviour
     public GameObject Real7;
     public GameObject Real8;
     
-    [SerializeField,Range(0,100000000)]public int score;
+    [SerializeField,Range(0,100000000)]public int MYscore;
     private int a;
     // Start is called before the first frame update
     void Start()
@@ -35,25 +35,25 @@ public class CountScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        Real0 = Digit0[score % 10];
-        a = score % 10;
-        Real1 = Digit1[(score % 100-a)/10];
-        a = (score % 100 - a);
-        Real2 = Digit2[(score%1000-a)/100];
-        a = score % 1000 - a;
-        Real3 = Digit3[(score%10000-a) / 1000];
-        a = score % 10000 - a;
-        Real4 = Digit4[(score%100000-a) / 10000];
-        a = score % 100000 - a;
-        Real5 = Digit5[(score % 1000000 - a) / 100000];
-        a = score % 1000000 - a;
-        Real6 = Digit6[(score % 10000000 - a) / 1000000];
-        a = score % 10000000 - a;
-        Real7 = Digit7[(score % 100000000 - a) / 10000000];
-        a = score % 100000000 - a;
-        Real8 = Digit8[(score % 1000000000 - a) / 100000000];
-        a = score % 1000000000 - a;
+        MYscore = score.point;
+        Real0 = Digit0[MYscore % 10];
+        a = MYscore % 10;
+        Real1 = Digit1[(MYscore % 100-a)/10];
+        a = (MYscore % 100 - a);
+        Real2 = Digit2[(MYscore % 1000-a)/100];
+        a = MYscore % 1000 - a;
+        Real3 = Digit3[(MYscore % 10000-a) / 1000];
+        a = MYscore % 10000 - a;
+        Real4 = Digit4[(MYscore % 100000-a) / 10000];
+        a = MYscore % 100000 - a;
+        Real5 = Digit5[(MYscore % 1000000 - a) / 100000];
+        a = MYscore % 1000000 - a;
+        Real6 = Digit6[(MYscore % 10000000 - a) / 1000000];
+        a = MYscore % 10000000 - a;
+        Real7 = Digit7[(MYscore % 100000000 - a) / 10000000];
+        a = MYscore % 100000000 - a;
+        Real8 = Digit8[(MYscore % 1000000000 - a) / 100000000];
+        a = MYscore % 1000000000 - a;
         for (int i = 0; i < 10; i++)
         {
             if (Digit0[i]== Real0) { Digit0[i].SetActive(true); } else { Digit0[i].SetActive(false); }

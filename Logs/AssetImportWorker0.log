@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'ja' Physical Memory: 24510 MB
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'ja' Physical Memory: 8079 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,69 +11,92 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
+E:/20210310git/boardgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53220
-Successfully changed project path to: C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
-C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
+59283
+Successfully changed project path to: E:/20210310git/boardgame
+E:/20210310git/boardgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Sogo/Desktop/Unity/boardgame/boardgame/Assets
+[Subsystems] Discovering subsystems at path E:/20210310git/boardgame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   27.21.14.5730
+    VRAM:     4039 MB
+    Driver:   25.20.100.6444
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002744 seconds.
+Registered in 0.018406 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
+- Completed reload, in  2.855 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001951 seconds.
+Registered in 0.002177 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  1.600 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1235 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.3 MB.
-System memory in use after: 63.9 MB.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
+System memory in use after: 57.5 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 1652.
-Total: 2.061200 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.611900 ms  DeleteObjects: 0.263200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 2.994100 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.379300 ms  DeleteObjects: 0.147900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Utsumi/UtsumiScene.unity
+  artifactKey: Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/UtsumiScene.unity using Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5f863631f1b66cdce25a38d7a1e54') in 0.081598 seconds
+  Import took 0.095461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 859.583995 seconds.
+  path: Assets/Utsumi/Oder/Score.cs
+  artifactKey: Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Score.cs using Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e2993f94cc9e139394cde13efccccf') in 0.196567 seconds
+  Import took 0.200167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 559.172357 seconds.
+  path: Assets/Utsumi/Oder/Score.cs
+  artifactKey: Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Score.cs using Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8817ad4b609586d54547c41dd4088070') in 0.082972 seconds
+  Import took 0.088022 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

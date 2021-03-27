@@ -53,17 +53,16 @@
     <UnityVersion>2020.3.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Utsumi\Oder\Transition.cs" />
     <Compile Include="Assets\Utsumi\Oder\AddEnerlgy.cs" />
     <Compile Include="Assets\gamba1707\ball.cs" />
     <Compile Include="Assets\gamba1707\side.cs" />
     <Compile Include="Assets\Utsumi\Oder\CountScore.cs" />
-    <Compile Include="Assets\gamba1707\re_side.cs" />
     <Compile Include="Assets\gamba1707\Play.cs" />
-    <Compile Include="Assets\gamba1707\Play2.cs" />
     <Compile Include="Assets\gamba1707\score.cs" />
     <Compile Include="Assets\Utsumi\Oder\Friper.cs" />
     <Compile Include="Assets\gamba1707\force.cs" />
-    <Compile Include="Assets\Utsumi\Oder\Transition.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Score.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
