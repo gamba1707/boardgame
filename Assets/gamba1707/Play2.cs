@@ -44,14 +44,6 @@ public class Play2 : MonoBehaviour
             jsR.targetPosition = 0;
             jR.spring = jsR;
         }
-        if (Input.GetButtonDown("left"))
-        {
-            move(-1);
-        }
     }
-    private void move(int x)
-    {
-        transform.Translate(x,0,0);
-        transform.Translate(-x, 0, 0);
-    }
+
 }
