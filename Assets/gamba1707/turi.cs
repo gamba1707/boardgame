@@ -28,7 +28,7 @@ public class turi : MonoBehaviour
             }
             if (gameObject.name.Equals("R_turispot"))
             {
-                other.gameObject.transform.position = new Vector3(3.41f, 5.22f, -6.68f);
+                other.gameObject.transform.position = new Vector3(3.42f, 4.8f, -6.82f);
                 score.namecheck("turi");
             }
 

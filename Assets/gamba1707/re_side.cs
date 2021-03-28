@@ -56,7 +56,7 @@ public class re_side : MonoBehaviour
             {
                 statetime += Time.deltaTime;
                 //Debug.Log("statecount:" + statetime);
-                if (Mathf.Floor(statetime) >= 61)
+                if (Mathf.Floor(statetime) >= 121)
                 {
                     if (entercount <= 6)
                     {
@@ -77,6 +77,15 @@ public class re_side : MonoBehaviour
     {
         statetime = 0;
         Debug.Log("zero");
+        if (entercount == 0)
+        {
+            GetComponent<Renderer>().material = yellowoff;
+            lightstate = 1;
+            foreach (GameObject light in lights)
+            {
+                light.GetComponent<Renderer>().material.color = Color.blue;
+            }
+        }
         if (entercount == 3)
         {
             GetComponent<Renderer>().material = yellowoff;
