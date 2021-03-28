@@ -23,7 +23,7 @@ public class gameover : MonoBehaviour
         if (other.gameObject.tag.Equals("ball"))
         {
             ball--;
-            other.gameObject.transform.position = new Vector3(5.8f,4.6f,-9.3f);
+            other.gameObject.transform.position = new Vector3(5.8f, 4.6f, -9.1f);
             score.namecheck("gameover");
             if (ball <= 0)
             {

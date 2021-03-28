@@ -93,6 +93,9 @@ public class score : MonoBehaviour
             case "powerup4":
                 messagetext.text = "パワーアップ第4段階！\nおめでとう！";
                 break;
+            case "turi":
+                messagetext.text = "釣り人が釣り上げてくれた！";
+                break;
             case "bag":
                 messagetext.text = "バグです！\n初期化...";
                 break;

@@ -18,7 +18,7 @@ public class ball : MonoBehaviour
         //rb.velocity = new Vector3(0, 0, -5);
         if (gameObject.transform.localPosition.y <= -10f)
         {
-            gameObject.transform.position = new Vector3(5.8f, 4.6f, -9.3f);
+            gameObject.transform.position = new Vector3(5.8f, 4.6f, -9.1f);
             score.namecheck("bag");
         }
     }
@@ -27,8 +27,8 @@ public class ball : MonoBehaviour
         //Debug.Log("bollcollision:"+collision.gameObject.tag);
         if (collision.gameObject.tag.Equals("Jetbumper"))
         {
-            float x = rb.velocity.x * 20f;
-            float z = -rb.velocity.z * 20f;
+            float x = rb.velocity.x * 15f;
+            float z = -rb.velocity.z * 15f;
             if (x > 100) x = 100;
             if (x < -100) x = -100;
             if (z > 100) z = 100;
