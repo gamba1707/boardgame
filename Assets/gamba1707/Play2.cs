@@ -45,5 +45,4 @@ public class Play2 : MonoBehaviour
             jR.spring = jsR;
         }
     }
-
 }
