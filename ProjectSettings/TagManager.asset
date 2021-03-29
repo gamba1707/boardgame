@@ -3,19 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Jetbumper
-  - ball
-  - Start
-  - scoretext
-  - side
-<<<<<<< HEAD
-  - Ball
-  - WarpHoleEntrance
-  - WarpHoleExit
-=======
-  - messagetext
->>>>>>> ff54bd7af4d27af767110d2633304f9461995f90
+  tags: []
   layers:
   - Default
   - TransparentFX

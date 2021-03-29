@@ -4,19 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-<<<<<<< HEAD
-    path: Assets/Shimura/Assets/Scenes/Stage1.unity
-    guid: 57acccbcb7e91414bb4c949bcefb3d01
-  - enabled: 1
-    path: Assets/gamba1707/Scenes/gambaScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-=======
-    path: Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity
-    guid: 152244f5855414ac4a3874f14efa583c
->>>>>>> ff54bd7af4d27af767110d2633304f9461995f90
-  - enabled: 1
-    path: Assets/Utsumi/UtsumiScene.unity
-    guid: a32b60e34f22a9446a0d31132258c109
+  m_Scenes: []
   m_configObjects: {}
