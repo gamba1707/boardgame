@@ -31,7 +31,7 @@ public class Fliper_right : MonoBehaviour
         timer += Time.deltaTime;
         if (Input.GetKey(KeyCode.D) && timer > actiontime)
         {
-            Ball = GameObject.FindGameObjectWithTag("Ball");
+            Ball = GameObject.FindGameObjectWithTag("ball");
             ActionSwitch = true;
             UpSwitch = true;
             PowerSwitch = true;

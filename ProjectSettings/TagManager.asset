@@ -9,6 +9,9 @@ TagManager:
   - Start
   - scoretext
   - side
+  - Ball
+  - WarpHoleEntrance
+  - WarpHoleExit
   layers:
   - Default
   - TransparentFX

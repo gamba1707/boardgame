@@ -19,7 +19,7 @@ public class Plunger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Ball=GameObject.FindGameObjectWithTag("Ball");
+        Ball=GameObject.FindGameObjectWithTag("ball");
         PositionSwicth = false;
         FiringSwicth = false;
         normalpos = gameObject.transform.position;
