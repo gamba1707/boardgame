@@ -9,6 +9,7 @@ public class AddEnerlgy : MonoBehaviour
     public float time;
     public GameObject gam;
     public bool s;
+    public Vector3 vec;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,11 @@ public class AddEnerlgy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (this.gameObject.transform.position.y <= -5)
+        {
+            this.gameObject.transform.position = vec;
+        }
+
         if (s)
         {
             if (Input.GetKey(KeyCode.Space))

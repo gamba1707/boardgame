@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/gamba1707/Scenes/gambaScene.unity
+- path: Assets/Utsumi/UtsumiScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
