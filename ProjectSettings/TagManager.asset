@@ -9,9 +9,13 @@ TagManager:
   - Start
   - scoretext
   - side
+<<<<<<< HEAD
   - Ball
   - WarpHoleEntrance
   - WarpHoleExit
+=======
+  - messagetext
+>>>>>>> ff54bd7af4d27af767110d2633304f9461995f90
   layers:
   - Default
   - TransparentFX

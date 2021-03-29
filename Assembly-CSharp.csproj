@@ -46,6 +46,79 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+<<<<<<< HEAD
+=======
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.7</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2020.3.1f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\RankingLoader.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Score.cs" />
+    <Compile Include="Assets\Utsumi\Oder\AddEnerlgy.cs" />
+    <Compile Include="Assets\NCMB\NCMBManager.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\RankingSceneManager.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBAnalytics.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBAppleParameters.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBObject.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\NumberScore.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBFile.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBRemoveOperation.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBQuery.cs" />
+    <Compile Include="Assets\NCMB\Script\NamespaceDoc.cs" />
+    <Compile Include="Assets\gamba1707\Play.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBAppleAuthenManager.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBCallback.cs" />
+    <Compile Include="Assets\NCMB\Script\MiniJSON.cs" />
+    <Compile Include="Assets\NCMB\NCMBSettings.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBIncrementOperation.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\RankingNode.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBDebug.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\TimeScore.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\RankingBoards.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBGeoPoint.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Friper.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\IScore.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBACL.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Transition.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBFacebookParameters.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBUtility.cs" />
+    <Compile Include="Assets\gamba1707\side.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBScript.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Rotation.cs" />
+    <Compile Include="Assets\Utsumi\Oder\CountScore.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBRole.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBPush.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\RankingInfo.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\NcmbYieldableExtensions.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\ScoreType.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBInstallation.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBRelation.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBRelationOperation.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBAddUniqueOperation.cs" />
+    <Compile Include="Assets\NCMB\Script\SimpleJSON.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBClassNameAttribute.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBException.cs" />
+    <Compile Include="Assets\NCMB\Script\MimeTypeMap.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBDeleteOperation.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBAddOperation.cs" />
+    <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\ScoreOrder.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBUser.cs" />
+    <Compile Include="Assets\NCMB\Script\CommonConstant.cs" />
+    <Compile Include="Assets\gamba1707\Play2.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBSetOperation.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBTwitterParameters.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBConnection.cs" />
+    <Compile Include="Assets\gamba1707\force.cs" />
+    <Compile Include="Assets\NCMB\Script\NCMBFieldOperation.cs" />
+    <Compile Include="Assets\NCMB\Script\ExtensionsClass.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Detzanki.cs" />
+  </ItemGroup>
+>>>>>>> ff54bd7af4d27af767110d2633304f9461995f90
   <ItemGroup>
      <Compile Include="Assets\Shimura\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
      <Compile Include="Assets\Shimura\Assets\Script\FliperR.cs" />
@@ -79,12 +152,25 @@
      <Compile Include="Assets\Shimura\Assets\Script\WarpManager.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\NCMB\Plugins\Android\res\values\version.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+<<<<<<< HEAD
+=======
+     <None Include="Assets\Shimura\Assets\Plugins\Demigiant\DOTween\DOTween.XML" />
+     <None Include="Assets\gamba1707\07YasashisaBold\ReadMe_Mac.txt" />
+>>>>>>> ff54bd7af4d27af767110d2633304f9461995f90
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\gamba1707\07YasashisaBold\ReadMe_windows.txt" />
+     <None Include="Assets\gamba1707\07YasashisaBold\ReadMe_unix.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+<<<<<<< HEAD
+=======
+     <None Include="Assets\Shimura\Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
+     <None Include="Assets\NCMB\Plugins\Android\AndroidManifest.xml" />
+>>>>>>> ff54bd7af4d27af767110d2633304f9461995f90
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />

@@ -38,7 +38,7 @@ public class Play2 : MonoBehaviour
             jsR.targetPosition = -60;
             jR.spring = jsR;
         }
-        if (Input.GetButtonUp("R") )
+        if (Input.GetButtonUp("R"))
         {
             jsR.spring = 40000;
             jsR.targetPosition = 0;
