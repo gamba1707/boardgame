@@ -65,7 +65,7 @@ public class re_side : MonoBehaviour
                     }
                     else if (entercount <= 9)
                     {
-                        entercount = 6;
+                        entercount = 3;
                         zero();
                     }
                 }
@@ -76,7 +76,7 @@ public class re_side : MonoBehaviour
     void zero()
     {
         statetime = 0;
-        Debug.Log("zero");
+        Debug.Log("enter:"+entercount);
         if (entercount == 0)
         {
             GetComponent<Renderer>().material = yellowoff;
