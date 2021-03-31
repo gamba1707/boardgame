@@ -20,9 +20,9 @@ public class WarpHoleMove1 : MonoBehaviour
     {
         Timer = Time.time;
         Vector3 pos = this.transform.position;
-        pos.x = pos.x + XDistance * Mathf.Cos(Timer * Speed);
-        pos.y = pos.y + YDistance * Mathf.Cos(Timer * Speed);
-        pos.z = pos.z + ZDistance * Mathf.Cos(Timer * Speed);
+        pos.x = pos.x + XDistance * Mathf.Sin(Timer * Speed);
+        pos.y = pos.y + YDistance * Mathf.Sin(Timer * Speed);
+        pos.z = pos.z + ZDistance * Mathf.Sin(Timer * Speed);
         this.transform.position = new Vector3(pos.x, pos.y, pos.z);
     }
 }

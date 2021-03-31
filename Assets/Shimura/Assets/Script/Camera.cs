@@ -5,6 +5,7 @@ using UnityEngine;
 public class Camera : MonoBehaviour
 {
     public GameObject Ball;
+    public float Xpos;
     float Ypos;
     float Zpos;
     public float YDistance;
@@ -31,6 +32,6 @@ public class Camera : MonoBehaviour
         //    Zpos = Ball.transform.position.z - Distance;
         //}
         Zpos = Ball.transform.position.z - ZDistance;
-        transform.position = new Vector3(0, Ypos, Zpos);
+        transform.position = new Vector3(Xpos, Ypos, Zpos);
     }
 }
