@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\RankingLoader.cs" />
-    <Compile Include="Assets\Utsumi\Oder\Score.cs" />
+    <Compile Include="Assets\Utsumi\Oder\Score2.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBUserTaskMethods.cs" />
     <Compile Include="Assets\Utsumi\Oder\AddEnerlgy.cs" />
     <Compile Include="Assets\NCMB\NCMBManager.cs" />
@@ -107,6 +107,7 @@
     <Compile Include="Assets\Shimura\Assets\Script\FliperR.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBFacebookParameters.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBUtility.cs" />
+    <Compile Include="Assets\gamba1707\ball.cs" />
     <Compile Include="Assets\gamba1707\side.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBUserTaskExtension.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBScript.cs" />
@@ -144,6 +145,7 @@
     <Compile Include="Assets\gamba1707\turi.cs" />
     <Compile Include="Assets\Shimura\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\NCMB\Script\CommonConstant.cs" />
+    <Compile Include="Assets\gamba1707\kaiten.cs" />
     <Compile Include="Assets\gamba1707\Play2.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBSetOperation.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBTwitterParameters.cs" />

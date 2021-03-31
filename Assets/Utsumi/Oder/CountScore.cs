@@ -25,6 +25,7 @@ public class CountScore : MonoBehaviour
     public GameObject Real8;
     
     [SerializeField,Range(0,100000000)]public int MYscore;
+    public GameObject Extxt;
     private int a;
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,7 @@ public class CountScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (MYscore <= 0) { Extxt.SetActive(true); } else { Extxt.SetActive(false); }
         MYscore = score.point;
         Real0 = Digit0[MYscore % 10];
         a = MYscore % 10;

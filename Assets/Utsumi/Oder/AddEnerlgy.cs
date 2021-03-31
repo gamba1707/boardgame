@@ -19,7 +19,7 @@ public class AddEnerlgy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.gameObject.transform.position.y <= -5)
+        if (this.gameObject.transform.position.y <= -20)
         {
             this.gameObject.transform.position = vec;
         }

@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Detzanki : MonoBehaviour
 {
+    public int zanki;
+    public Vector3 vec;
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        zanki=gameover.ball;
+        zanki = 3;
     }
 
     // Update is called once per frame
@@ -19,7 +23,20 @@ public class Detzanki : MonoBehaviour
     {
         if (collision.gameObject.tag == "ball")
         {
-            
+            zanki--;
+            if (zanki <= 0)
+            {
+                naichilab.RankingLoader.Instance.SendScoreAndShowRanking(score.point);
+            }
+            else
+            {
+
+                collision.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                collision.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+                collision.transform.localPosition = vec;
+            }
+
         }
+        
     }
 }

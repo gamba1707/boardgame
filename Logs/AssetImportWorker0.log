@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.870; Version 2009; 64bit' Language: 'ja' Physical Memory: 8006 MB
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'ja' Physical Memory: 8079 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,288 +11,1186 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/tshow/GDP/Piball_Integration/boardgame
+E:/20210310git/boardgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54990
-Successfully changed project path to: C:/Users/tshow/GDP/Piball_Integration/boardgame
-C:/Users/tshow/GDP/Piball_Integration/boardgame
+57017
+Successfully changed project path to: E:/20210310git/boardgame
+E:/20210310git/boardgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 178.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 195.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tshow/GDP/Piball_Integration/boardgame/Assets
+[Subsystems] Discovering subsystems at path E:/20210310git/boardgame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX150 (ID=0x1d12)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   
-    VRAM:     1983 MB
-    Driver:   27.21.14.5763
+    VRAM:     4039 MB
+    Driver:   25.20.100.6444
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015313 seconds.
+Registered in 0.024122 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 116.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.997 seconds
+- Completed reload, in  3.775 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016896 seconds.
+Registered in 0.003671 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.878 seconds
+- Completed reload, in  2.053 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.0 MB.
-System memory in use after: 70.0 MB.
+System memory in use before: 67.3 MB.
+System memory in use after: 67.3 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 1881.
-Total: 6.618700 ms (FindLiveObjects: 0.703600 ms CreateObjectMapping: 0.227100 ms MarkObjects: 5.354100 ms  DeleteObjects: 0.327400 ms)
+Total: 4.752700 ms (FindLiveObjects: 0.584300 ms CreateObjectMapping: 0.224200 ms MarkObjects: 3.666200 ms  DeleteObjects: 0.275300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Shimura/Assets/Object/WarpHole_ver4 (1).prefab
-  artifactKey: Guid(ed5f8b422ad96c54ca98c747f6be0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Object/WarpHole_ver4 (1).prefab using Guid(ed5f8b422ad96c54ca98c747f6be0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f575dbfa93594f8dc8dbc76258f4d1c') in 0.642081 seconds
-  Import took 0.650964 seconds .
+  path: Assets/gamba1707/light/hanpatu.mat
+  artifactKey: Guid(d608a87bffde88b438aaf3c7674b8320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/light/hanpatu.mat using Guid(d608a87bffde88b438aaf3c7674b8320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28919c5a01b472ca677785cf023284c') in 0.345919 seconds
+  Import took 0.367831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.690326 seconds.
-  path: Assets/Shimura/Assets/Script/Right_Yrotation1.cs
-  artifactKey: Guid(de5305b3611ed1449990b2829ff5d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Right_Yrotation1.cs using Guid(de5305b3611ed1449990b2829ff5d598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35c018e01bd6a3fe3ce6551c48ff855') in 0.036345 seconds
-  Import took 0.044943 seconds .
+  Time since last request: 0.000602 seconds.
+  path: Assets/gamba1707/light/yellow_nomal.mat
+  artifactKey: Guid(9242077adedd81e43aadbd072eee468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/light/yellow_nomal.mat using Guid(9242077adedd81e43aadbd072eee468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7aaf65bab3c0453d6b24b3ee6a0ffc') in 0.100264 seconds
+  Import took 0.115466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.603115 seconds.
-  path: Assets/Shimura/Assets/Script/Left_Yrotation1.cs
-  artifactKey: Guid(89f434562ed5a9f4e96086eb8ffcac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Left_Yrotation1.cs using Guid(89f434562ed5a9f4e96086eb8ffcac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c970472895f148b9acfc8a2426d9b40') in 0.015262 seconds
-  Import took 0.021913 seconds .
+  Time since last request: 0.000503 seconds.
+  path: Assets/gamba1707/light/yellow.mat
+  artifactKey: Guid(bae76544f6dc6b34a8b4fb4255393fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/light/yellow.mat using Guid(bae76544f6dc6b34a8b4fb4255393fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a39d539dcd89110e63d4ffe2a04da7b') in 0.132478 seconds
+  Import took 0.159438 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002202 seconds.
-  path: Assets/Shimura/Assets/Script/Left_Yrotation1.cs
-  artifactKey: Guid(89f434562ed5a9f4e96086eb8ffcac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Left_Yrotation1.cs using Guid(89f434562ed5a9f4e96086eb8ffcac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c970472895f148b9acfc8a2426d9b40') in 0.015263 seconds
-  Import took 0.024192 seconds .
+  Time since last request: 0.000522 seconds.
+  path: Assets/gamba1707/07YasashisaBold/07YasashisaBold.ttf
+  artifactKey: Guid(e6b38edfb167ad24f8a18b3286cdd759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/07YasashisaBold/07YasashisaBold.ttf using Guid(e6b38edfb167ad24f8a18b3286cdd759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a31091e004a409fe35783f7de94182') in 0.229118 seconds
+  Import took 0.250728 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.542636 seconds.
-  path: Assets/Shimura/Assets/Script/Left_Zrotation1.cs
-  artifactKey: Guid(7925b61d1bf379642a0a83ddeee3a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Left_Zrotation1.cs using Guid(7925b61d1bf379642a0a83ddeee3a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6792f1d3b272adc7641d4da69ee24aa') in 0.022338 seconds
-  Import took 0.028392 seconds .
+  Time since last request: 0.000504 seconds.
+  path: Assets/gamba1707/07YasashisaBold/07YasashisaBold SDF.asset
+  artifactKey: Guid(b6e461d76fa154142b4476d49a510659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/07YasashisaBold/07YasashisaBold SDF.asset using Guid(b6e461d76fa154142b4476d49a510659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6437ab853179a09afc94dd501562c7f1') in 0.650636 seconds
+  Import took 0.675795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001003 seconds.
-  path: Assets/Shimura/Assets/Script/Left_Zrotation1.cs
-  artifactKey: Guid(7925b61d1bf379642a0a83ddeee3a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Left_Zrotation1.cs using Guid(7925b61d1bf379642a0a83ddeee3a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6792f1d3b272adc7641d4da69ee24aa') in 0.012321 seconds
-  Import took 0.018812 seconds .
+  Time since last request: 0.000542 seconds.
+  path: Assets/Utsumi/Frip1.fbx
+  artifactKey: Guid(b15d94dcfb317e14989f4f61d5d05a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Frip1.fbx using Guid(b15d94dcfb317e14989f4f61d5d05a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5db319ae375c6e83f358d9268e789') in 0.241737 seconds
+  Import took 0.279041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.083074 seconds.
-  path: Assets/Shimura/Assets/Script/Right_Zrotation1.cs
-  artifactKey: Guid(dedd4d6bf2c66124b924c96fd3c0b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Right_Zrotation1.cs using Guid(dedd4d6bf2c66124b924c96fd3c0b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d796a248676cb2cf3a6725ffee35f13') in 0.015124 seconds
-  Import took 0.022214 seconds .
+  Time since last request: 0.001149 seconds.
+  path: Assets/gamba1707/light/New LightmapParameters.giparams
+  artifactKey: Guid(f43b5ffbd8e4c6049a9beed6a7d47894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/light/New LightmapParameters.giparams using Guid(f43b5ffbd8e4c6049a9beed6a7d47894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d273a1c863c3ae8050dd4e45ce2f577') in 0.073086 seconds
+  Import took 0.103731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003348 seconds.
-  path: Assets/Shimura/Assets/Script/Right_Zrotation1.cs
-  artifactKey: Guid(dedd4d6bf2c66124b924c96fd3c0b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/Right_Zrotation1.cs using Guid(dedd4d6bf2c66124b924c96fd3c0b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d796a248676cb2cf3a6725ffee35f13') in 0.017302 seconds
-  Import took 0.025133 seconds .
+  Time since last request: 0.000569 seconds.
+  path: Assets/gamba1707/light/no.mat
+  artifactKey: Guid(323c642572d57b048afdd2551227383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/light/no.mat using Guid(323c642572d57b048afdd2551227383a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1074b36fb997257a50202ccbc858de') in 0.105714 seconds
+  Import took 0.109523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.280253 seconds.
-  path: Assets/Shimura/Assets/Script/WarpHoleMove1.cs
-  artifactKey: Guid(457812f3db3856648817391e523ee124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/WarpHoleMove1.cs using Guid(457812f3db3856648817391e523ee124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e941dffbf03ca09de24ac77ec007be') in 0.012660 seconds
-  Import took 0.019740 seconds .
+  Time since last request: 0.000533 seconds.
+  path: Assets/Utsumi/NUM.fbx
+  artifactKey: Guid(c0608874d9d19e84aab59bfdc92c69cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/NUM.fbx using Guid(c0608874d9d19e84aab59bfdc92c69cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1aa6815fcec56e5e9d88069c6dad4d') in 0.319219 seconds
+  Import took 0.323174 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002618 seconds.
-  path: Assets/Shimura/Assets/Script/WarpHoleMove1.cs
-  artifactKey: Guid(457812f3db3856648817391e523ee124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/WarpHoleMove1.cs using Guid(457812f3db3856648817391e523ee124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e941dffbf03ca09de24ac77ec007be') in 0.022239 seconds
-  Import took 0.029190 seconds .
+  Time since last request: 0.000652 seconds.
+  path: Assets/Utsumi/pin3DenwVERNNG.fbx
+  artifactKey: Guid(3bcb883c0d6d4684e9cbfb28437d01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/pin3DenwVERNNG.fbx using Guid(3bcb883c0d6d4684e9cbfb28437d01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31528fe03f09aab94245cc041a71e712') in 1.131118 seconds
+  Import took 1.180158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/Utsumi/UtsumiScene.unity
+  artifactKey: Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/UtsumiScene.unity using Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2486b6fa737f5d46ff2c36ce1a454f72') in 0.069148 seconds
+  Import took 0.131097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.165398 seconds.
+  path: Assets/Utsumi/Oder
+  artifactKey: Guid(ff863805989d5ea4bb1db6b38d91dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder using Guid(ff863805989d5ea4bb1db6b38d91dac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed2006d9be515875bdc3efc396a07b0') in 0.086165 seconds
+  Import took 0.124148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Utsumi/Oder/Red Material.physicMaterial
+  artifactKey: Guid(ba9c2028a6ce15249a1ed610cbcfd6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Red Material.physicMaterial using Guid(ba9c2028a6ce15249a1ed610cbcfd6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b632a45ae169914cbeed0c63f3f4d28') in 0.086397 seconds
+  Import took 0.099749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/Utsumi/Oder/Side.physicMaterial
+  artifactKey: Guid(a76db8a7a17f1d14aac9a9b7b711b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Side.physicMaterial using Guid(a76db8a7a17f1d14aac9a9b7b711b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b85a7eb9c8ad568f2a0d3a24d7071c0') in 0.142531 seconds
+  Import took 0.160072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Utsumi/Oder/FlipMaterial.physicMaterial
+  artifactKey: Guid(1fe1332c11ef6974daa7c3b4f77ebfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/FlipMaterial.physicMaterial using Guid(1fe1332c11ef6974daa7c3b4f77ebfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a7440822fed31f6fe38d55b9b6714b') in 0.060195 seconds
+  Import took 0.073118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Utsumi/Oder/Boal.physicMaterial
+  artifactKey: Guid(078cbfc14870b6e4a8c6edf147fcda8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Boal.physicMaterial using Guid(078cbfc14870b6e4a8c6edf147fcda8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b432140de844d02f3474fa7a2db1cf') in 0.054096 seconds
+  Import took 0.065547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.067556 seconds.
+  path: Assets/gamba1707/07YasashisaBold
+  artifactKey: Guid(1ae7c3147b4d4264d99219097da235a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/07YasashisaBold using Guid(1ae7c3147b4d4264d99219097da235a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238d838002d6f6fca2a5f6164db614c0') in 0.103034 seconds
+  Import took 0.136277 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016759 seconds.
+Registered in 0.003339 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.183 seconds
+- Completed reload, in  2.515 seconds
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.2 MB.
+System memory in use before: 71.2 MB.
+System memory in use after: 71.2 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1891.
-Total: 8.551600 ms (FindLiveObjects: 1.618100 ms CreateObjectMapping: 0.379400 ms MarkObjects: 6.126100 ms  DeleteObjects: 0.422900 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1931.
+Total: 5.486000 ms (FindLiveObjects: 0.445400 ms CreateObjectMapping: 0.216300 ms MarkObjects: 4.607000 ms  DeleteObjects: 0.213600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.438143 seconds.
+  path: Assets/Utsumi
+  artifactKey: Guid(151eacfe1d01a9b4db366d26acbf3ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi using Guid(151eacfe1d01a9b4db366d26acbf3ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f027b64d59567b63455c0ccc95d09d') in 0.157923 seconds
+  Import took 0.163260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.994735 seconds.
+  path: Assets/Utsumi/Se
+  artifactKey: Guid(10f3628f9627fbd4b969010664027ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Se using Guid(10f3628f9627fbd4b969010664027ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c30ee150055476eedbf9fde21ca1436') in 0.055419 seconds
+  Import took 0.059231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.850610 seconds.
+  path: Assets/Utsumi/Se/tyltorial(1).mp3
+  artifactKey: Guid(199be7ef622489d449d87a345165e9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Se/tyltorial(1).mp3 using Guid(199be7ef622489d449d87a345165e9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dfa4608b942e3812aea2802170de8d') in 0.318224 seconds
+  Import took 0.322412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.081972 seconds.
+  path: Assets/Utsumi/Se/tyltorial(2).mp3
+  artifactKey: Guid(3fa5fe8da8e181b4094a2ff6fcb4ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Se/tyltorial(2).mp3 using Guid(3fa5fe8da8e181b4094a2ff6fcb4ae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eb5b713823494ad3505c525bb6aa1b') in 0.106278 seconds
+  Import took 0.111433 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011855 seconds.
+Registered in 0.002290 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.405 seconds
+- Completed reload, in  1.970 seconds
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
+System memory in use before: 71.3 MB.
+System memory in use after: 71.3 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1894.
-Total: 5.713400 ms (FindLiveObjects: 0.731300 ms CreateObjectMapping: 0.257800 ms MarkObjects: 4.445900 ms  DeleteObjects: 0.273500 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 7.746600 ms (FindLiveObjects: 0.693000 ms CreateObjectMapping: 0.224200 ms MarkObjects: 6.518100 ms  DeleteObjects: 0.305800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.281697 seconds.
+  path: Assets/Shimura/Assets/Image/WarmHole.png
+  artifactKey: Guid(bad001671fa7d9c4a92d0c6e9693fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shimura/Assets/Image/WarmHole.png using Guid(bad001671fa7d9c4a92d0c6e9693fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84568e9e8f67cf7b0797c9bb8698dd81') in 0.213853 seconds
+  Import took 0.223065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001902 seconds.
+  path: Assets/Shimura/Assets/Image/WarmHole_ver2.jpg
+  artifactKey: Guid(6eb7eed03604a1b4da2abe7edde5861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shimura/Assets/Image/WarmHole_ver2.jpg using Guid(6eb7eed03604a1b4da2abe7edde5861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1e58fe21e80d64a48eda25731d9bc9') in 0.115006 seconds
+  Import took 0.120755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Shimura/Assets/Material/WarmHole.mat
+  artifactKey: Guid(34369f574695dcd4b8b79e7e840328bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shimura/Assets/Material/WarmHole.mat using Guid(34369f574695dcd4b8b79e7e840328bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b5de9c806396039d431ed88027ff6f') in 0.240137 seconds
+  Import took 0.250495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.050316 seconds.
+  path: Assets/Utsumi/Oder/Score.cs
+  artifactKey: Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Score.cs using Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6835fd110a1c4987234216a138f438d') in 0.082441 seconds
+  Import took 0.087980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.112583 seconds.
+  path: Assets/Utsumi/Oder/Score1.cs
+  artifactKey: Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Score1.cs using Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0614aea075ea54023a583ad98f16bf1e') in 0.049275 seconds
+  Import took 0.053264 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012134 seconds.
+Registered in 0.004659 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.408 seconds
+- Completed reload, in  2.187 seconds
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1897.
-Total: 3.377800 ms (FindLiveObjects: 0.407200 ms CreateObjectMapping: 0.144600 ms MarkObjects: 2.677400 ms  DeleteObjects: 0.146300 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 5.804500 ms (FindLiveObjects: 0.483700 ms CreateObjectMapping: 0.198700 ms MarkObjects: 4.800400 ms  DeleteObjects: 0.316900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.593938 seconds.
+  path: Assets/Utsumi/Oder/Score2.cs
+  artifactKey: Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Score2.cs using Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda80f2d149cf02d4bde3f9d3d68dfae') in 0.059706 seconds
+  Import took 0.066616 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009834 seconds.
+Registered in 0.003371 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
+- Completed reload, in  2.121 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 5.355600 ms (FindLiveObjects: 0.577800 ms CreateObjectMapping: 0.245500 ms MarkObjects: 4.310300 ms  DeleteObjects: 0.219700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.908 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 14.125000 ms (FindLiveObjects: 1.337000 ms CreateObjectMapping: 0.182000 ms MarkObjects: 11.817400 ms  DeleteObjects: 0.785200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.421 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 2.529100 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.074500 ms MarkObjects: 1.961200 ms  DeleteObjects: 0.177900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.221 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 3.471100 ms (FindLiveObjects: 0.440500 ms CreateObjectMapping: 0.330300 ms MarkObjects: 2.538900 ms  DeleteObjects: 0.159700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1018.558906 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3baa79685fc0dba46cce7d2d9006d6') in 0.190453 seconds
+  Import took 0.198333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.711663 seconds.
+  path: Assets/Utsumi/Oder/Rotation.cs
+  artifactKey: Guid(6b97edcf1b58e9e4395d3f87d3138b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Rotation.cs using Guid(6b97edcf1b58e9e4395d3f87d3138b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada1711cb334a3e20152aec05cf8cb6d') in 0.077731 seconds
+  Import took 0.087738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.383095 seconds.
+  path: Assets/Utsumi/UtsumiScene.unity
+  artifactKey: Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/UtsumiScene.unity using Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f101cb1944caba0c53b7ecdc4a065662') in 0.461865 seconds
+  Import took 0.467569 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.160979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.312 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 3.337100 ms (FindLiveObjects: 0.576400 ms CreateObjectMapping: 0.254300 ms MarkObjects: 2.353400 ms  DeleteObjects: 0.151400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.131 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 3.178700 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.538000 ms  DeleteObjects: 0.142100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.845203 seconds.
+  path: Assets/Utsumi/Oder/Detzanki.cs
+  artifactKey: Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Detzanki.cs using Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7749841ccd118e321d8d5be1cba706') in 0.117925 seconds
+  Import took 0.126458 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.289 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 4.865700 ms (FindLiveObjects: 0.436500 ms CreateObjectMapping: 0.129800 ms MarkObjects: 4.124600 ms  DeleteObjects: 0.171000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.697716 seconds.
+  path: Assets/Utsumi/UtsumiScene.unity
+  artifactKey: Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/UtsumiScene.unity using Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8eb2218197ba779f445d3a80b06144') in 0.255320 seconds
+  Import took 0.274387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.347148 seconds.
+  path: Assets/Utsumi/Oder/Red Material.physicMaterial
+  artifactKey: Guid(ba9c2028a6ce15249a1ed610cbcfd6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Red Material.physicMaterial using Guid(ba9c2028a6ce15249a1ed610cbcfd6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472961326f1e3ce21d64526c23d24299') in 0.498744 seconds
+  Import took 0.506866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.953411 seconds.
+  path: Assets/Utsumi/Oder/Detzanki.cs
+  artifactKey: Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Detzanki.cs using Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d369452f689887333d1e00018f3367a') in 0.078539 seconds
+  Import took 0.085438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.596649 seconds.
+  path: Assets/gamba1707/gameover.cs
+  artifactKey: Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/gameover.cs using Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517df115a8a64bba898bc89dbb3ca1ff') in 0.076873 seconds
+  Import took 0.084653 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.265 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.805700 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.140500 ms MarkObjects: 3.080600 ms  DeleteObjects: 0.159100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.359 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 4.245100 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.242800 ms MarkObjects: 3.333000 ms  DeleteObjects: 0.220600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.331 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 6.359500 ms (FindLiveObjects: 0.598200 ms CreateObjectMapping: 0.233800 ms MarkObjects: 5.181400 ms  DeleteObjects: 0.338900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.176363 seconds.
+  path: Assets/naichilab/unity-simple-ranking
+  artifactKey: Guid(fbedd72c69f8b4c0886d524373cf5a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking using Guid(fbedd72c69f8b4c0886d524373cf5a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef021ea0210963049d179727b79c1acf') in 0.450335 seconds
+  Import took 0.455392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.531540 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scenes
+  artifactKey: Guid(1634fedb77b484d60a6966e5fb55f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scenes using Guid(1634fedb77b484d60a6966e5fb55f54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf6814121bfd16355ee456169a9b376') in 0.087871 seconds
+  Import took 0.096089 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.544 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 2.399800 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.079800 ms MarkObjects: 1.874600 ms  DeleteObjects: 0.133800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 336.646596 seconds.
+  path: Assets/Utsumi/Oder/CountScore.cs
+  artifactKey: Guid(cbad6f68281441b42bf8d5ae6e35c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/CountScore.cs using Guid(cbad6f68281441b42bf8d5ae6e35c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b340e8eea4993e799fda2c4a5b442') in 0.514159 seconds
+  Import took 0.520576 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.278 seconds
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1900.
-Total: 5.887500 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.291900 ms MarkObjects: 4.772500 ms  DeleteObjects: 0.169200 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 4.542600 ms (FindLiveObjects: 0.629100 ms CreateObjectMapping: 0.199000 ms MarkObjects: 3.415000 ms  DeleteObjects: 0.295600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 518.633503 seconds.
-  path: Assets/Shimura/Assets/Script/WarpHole.cs
-  artifactKey: Guid(afd8418d8f8f12f44813b029c864b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Script/WarpHole.cs using Guid(afd8418d8f8f12f44813b029c864b65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bf141eea9755431c01d82bc0380d0b') in 0.011776 seconds
-  Import took 0.019671 seconds .
+  Time since last request: 107.847259 seconds.
+  path: Assets/Utsumi/Oder/CountScore.cs
+  artifactKey: Guid(cbad6f68281441b42bf8d5ae6e35c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/CountScore.cs using Guid(cbad6f68281441b42bf8d5ae6e35c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e36ab8e5a5bcc05791d3ee23cfda275') in 0.083012 seconds
+  Import took 0.092059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.164701 seconds.
+  path: Assets/Utsumi/Oder/CountScore.cs
+  artifactKey: Guid(cbad6f68281441b42bf8d5ae6e35c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/CountScore.cs using Guid(cbad6f68281441b42bf8d5ae6e35c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e36ab8e5a5bcc05791d3ee23cfda275') in 0.055305 seconds
+  Import took 0.061954 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006531 seconds.
+Registered in 0.007535 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
+- Completed reload, in  3.098 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 4.921400 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.171200 ms MarkObjects: 4.105200 ms  DeleteObjects: 0.224100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.060 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 6.289200 ms (FindLiveObjects: 0.619000 ms CreateObjectMapping: 0.228700 ms MarkObjects: 5.029300 ms  DeleteObjects: 0.408600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.397 seconds
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.3 MB.
-System memory in use after: 73.3 MB.
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1903.
-Total: 3.139200 ms (FindLiveObjects: 0.290600 ms CreateObjectMapping: 0.153000 ms MarkObjects: 2.525400 ms  DeleteObjects: 0.167900 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 5.852300 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.105400 ms MarkObjects: 4.702800 ms  DeleteObjects: 0.632000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.128 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 4.441000 ms (FindLiveObjects: 0.625300 ms CreateObjectMapping: 0.226500 ms MarkObjects: 3.352200 ms  DeleteObjects: 0.232100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.324 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 3.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 4.605500 ms (FindLiveObjects: 0.355100 ms CreateObjectMapping: 0.098500 ms MarkObjects: 3.249200 ms  DeleteObjects: 0.898800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.793 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 4.534000 ms (FindLiveObjects: 0.514200 ms CreateObjectMapping: 0.211000 ms MarkObjects: 3.619000 ms  DeleteObjects: 0.186400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.528 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 2.988600 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.101700 ms MarkObjects: 2.412500 ms  DeleteObjects: 0.161700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.659 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 3.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 36.468600 ms (FindLiveObjects: 1.468300 ms CreateObjectMapping: 0.680400 ms MarkObjects: 33.983800 ms  DeleteObjects: 0.327100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.175 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 3.268300 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.164200 ms MarkObjects: 2.555000 ms  DeleteObjects: 0.171600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1312.737463 seconds.
+  path: Assets/Utsumi/Oder/AddEnerlgy.cs
+  artifactKey: Guid(4ed40394df0d29941b32398f81b33a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/AddEnerlgy.cs using Guid(4ed40394df0d29941b32398f81b33a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c623d840b20728d8c195c02ac81ccbb4') in 0.698184 seconds
+  Import took 0.703633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Utsumi/Oder/Transition.cs
+  artifactKey: Guid(3e4a3463d09b275499778da5556da78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Transition.cs using Guid(3e4a3463d09b275499778da5556da78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001a0e97f43e9cbdaa4866be6ce35fa4') in 0.052283 seconds
+  Import took 0.058908 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.241 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2008.
+Total: 4.533300 ms (FindLiveObjects: 0.787500 ms CreateObjectMapping: 0.305300 ms MarkObjects: 3.182900 ms  DeleteObjects: 0.198200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.184 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 3.088100 ms (FindLiveObjects: 0.375500 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.486700 ms  DeleteObjects: 0.138100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.004 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 13.186200 ms (FindLiveObjects: 0.647600 ms CreateObjectMapping: 0.505100 ms MarkObjects: 10.631900 ms  DeleteObjects: 1.396200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.920 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 9.271200 ms (FindLiveObjects: 0.614800 ms CreateObjectMapping: 0.209000 ms MarkObjects: 6.798100 ms  DeleteObjects: 1.633400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.335 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1454 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 3.712700 ms (FindLiveObjects: 0.800200 ms CreateObjectMapping: 0.391500 ms MarkObjects: 2.376800 ms  DeleteObjects: 0.140900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006292 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.908 seconds
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 10.644800 ms (FindLiveObjects: 2.050900 ms CreateObjectMapping: 0.478300 ms MarkObjects: 7.875100 ms  DeleteObjects: 0.236400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
