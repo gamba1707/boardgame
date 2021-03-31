@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'ja' Physical Memory: 8079 MB
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'ja' Physical Memory: 24510 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,84 +11,116 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-E:/20210310git/boardgame
+C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63425
-Successfully changed project path to: E:/20210310git/boardgame
-E:/20210310git/boardgame
+50705
+Successfully changed project path to: C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
+C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/20210310git/boardgame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Sogo/Desktop/Unity/boardgame/boardgame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     4039 MB
-    Driver:   25.20.100.6444
+    VRAM:     6052 MB
+    Driver:   27.21.14.5730
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.022356 seconds.
+Registered in 0.002342 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.228 seconds
+- Completed reload, in  1.186 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.044185 seconds.
+Registered in 0.001938 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.494 seconds
+- Completed reload, in  0.936 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1174 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 71.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 3.077100 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.561400 ms  DeleteObjects: 0.111300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Utsumi/Oder/Detzanki.cs
-  artifactKey: Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Detzanki.cs using Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d8a9a4dc8e7343da50da136e30bf1d') in 0.129900 seconds
-  Import took 0.132354 seconds .
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 2.734900 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.292500 ms  DeleteObjects: 0.095000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.379595 seconds.
-  path: Assets/Utsumi/Oder/Detzanki.cs
-  artifactKey: Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Detzanki.cs using Guid(e6e389ca0b27af641aad2fa73493cb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7749841ccd118e321d8d5be1cba706') in 0.055087 seconds
-  Import took 0.059550 seconds .
+  path: Assets/gamba1707
+  artifactKey: Guid(7f9aaef4b07feec408d0568259424907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707 using Guid(7f9aaef4b07feec408d0568259424907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dbbabf1fa0a5d6735a8137172c3bcf') in 0.009773 seconds
+  Import took 0.012850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/gamba1707/turibito.fbx
+  artifactKey: Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/turibito.fbx using Guid(ab89089546133ff4097e93f979cc3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716546bea86ce1946ed85df8ed0509e2') in 0.257407 seconds
+  Import took 0.260677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/gamba1707/bord.fbx
+  artifactKey: Guid(ac39abff4f73d0749967d7a2a6cc90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/bord.fbx using Guid(ac39abff4f73d0749967d7a2a6cc90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3b9f1c9d9a0f6a0526119bb8c608ba') in 0.344724 seconds
+  Import took 0.348060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/gamba1707/bound.physicMaterial
+  artifactKey: Guid(e141608b30c6ec74c9b8bbe505d5dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/bound.physicMaterial using Guid(e141608b30c6ec74c9b8bbe505d5dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076f9995831f40aeaa723ac392a62f7f') in 0.011204 seconds
+  Import took 0.015030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/gamba1707/Scenes
+  artifactKey: Guid(2deb16ec50795ef44bc542b05eaacad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes using Guid(2deb16ec50795ef44bc542b05eaacad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2144e9d10f0d29e538c9aeeb4d7dc1') in 0.003397 seconds
+  Import took 0.006294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32847d30381b53f2394e43b994b77296') in 0.007508 seconds
+  Import took 0.010401 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

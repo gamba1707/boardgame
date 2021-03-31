@@ -8,6 +8,10 @@ public class WarpHole : MonoBehaviour
     GameObject Ball;
     public int GoToScene;
     public int WarpHoleNumber;
+    //WarpHoleNumber
+    //“àŠC‚ª0
+    //¬–“‚ª1
+    //u‘º‚ª2
     
     // Start is called before the first frame update
     void Start()
