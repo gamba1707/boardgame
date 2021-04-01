@@ -7,10 +7,11 @@ public class gameover : MonoBehaviour
 {
     public TextMeshProUGUI balltext;
     public static int ball;
+    public GameObject panel;
     // Start is called before the first frame update
     void Start()
     {
-        ball=PlayerPrefs.GetInt("ball",3);
+        ball=PlayerPrefs.GetInt("ball",0);
     }
 
     // Update is called once per frame
@@ -27,6 +28,8 @@ public class gameover : MonoBehaviour
             score.namecheck("gameover");
             if (ball <= 0)
             {
+                Destroy(other.gameObject);
+                panel.SetActive(true);
                 naichilab.RankingLoader.Instance.SendScoreAndShowRanking(score.point);
             }
         }
