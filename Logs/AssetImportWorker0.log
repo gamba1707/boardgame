@@ -15,11 +15,11 @@ E:/20210310git/boardgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59048
+49192
 Successfully changed project path to: E:/20210310git/boardgame
 E:/20210310git/boardgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 294.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 291.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,124 +35,148 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.025921 seconds.
+Registered in 0.029654 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.361 seconds
+- Completed reload, in  3.468 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.073413 seconds.
+Registered in 0.079752 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.202 seconds
+- Completed reload, in  2.255 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1472 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.8 MB.
-System memory in use after: 68.3 MB.
+System memory in use before: 68.9 MB.
+System memory in use after: 68.4 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 1884.
-Total: 3.245600 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.061200 ms MarkObjects: 2.180700 ms  DeleteObjects: 0.515300 ms)
+Total: 3.337900 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.413300 ms  DeleteObjects: 0.390900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Utsumi/Sence
-  artifactKey: Guid(ca4fdf2c82d1abe4aa72210650c553df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Sence using Guid(ca4fdf2c82d1abe4aa72210650c553df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997167cbc5a5e7fc77be72e93c009ee8') in 0.065969 seconds
-  Import took 0.185160 seconds .
+  path: Assets/Utsumi/Pinbooltec/L0ck.png
+  artifactKey: Guid(72ee09209e8b1314387e84c990315405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/L0ck.png using Guid(72ee09209e8b1314387e84c990315405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f493d7c229d966075bc0532dfe0312') in 0.286838 seconds
+  Import took 0.346896 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Utsumi/UtsumiScene.unity
-  artifactKey: Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/UtsumiScene.unity using Guid(a32b60e34f22a9446a0d31132258c109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb4bb622b76f8f904eda523f435ec74') in 0.069923 seconds
-  Import took 0.175995 seconds .
+  Time since last request: 0.000614 seconds.
+  path: Assets/Utsumi/Pinbooltec/fish.png
+  artifactKey: Guid(ddb4717a296969a458dfeceb95658dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/fish.png using Guid(ddb4717a296969a458dfeceb95658dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f617f28389f50040831ba49c5c170bb') in 0.140340 seconds
+  Import took 0.173405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30.195560 seconds.
-  path: Assets/Utsumi/Sence/StartSean(U).unity
-  artifactKey: Guid(c9fa24a5b8c66214ebf0496d267649e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Sence/StartSean(U).unity using Guid(c9fa24a5b8c66214ebf0496d267649e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e2abc0067bb951e5980f677a71271b') in 0.057344 seconds
-  Import took 0.099565 seconds .
+  Time since last request: 0.000682 seconds.
+  path: Assets/Utsumi/Pinbooltec/Ipin.png
+  artifactKey: Guid(1572545fc3c7bcb49b14fe2f71067ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/Ipin.png using Guid(1572545fc3c7bcb49b14fe2f71067ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb42c60e2ada77c6fd0b77dc83d607b') in 0.134345 seconds
+  Import took 0.173105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4938.797175 seconds.
-  path: Assets/Utsumi/TopicalPinball.fbx
-  artifactKey: Guid(bd4022cd2d2729042ae0411674d8ee1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/TopicalPinball.fbx using Guid(bd4022cd2d2729042ae0411674d8ee1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283a1309cc425d9303b82485e1c35c02') in 1.084320 seconds
-  Import took 1.297222 seconds .
+  Time since last request: 0.000449 seconds.
+  path: Assets/Utsumi/Pinbooltec/Mate.mat
+  artifactKey: Guid(8fba986faf428694db5daf6c1cb82dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/Mate.mat using Guid(8fba986faf428694db5daf6c1cb82dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aead73de1b8210b4a7cafe74a8720e3') in 0.307057 seconds
+  Import took 0.328024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 935.492711 seconds.
-  path: Assets/Utsumi/Oder/Yello.mat
-  artifactKey: Guid(13a36355d7d140b4c9f4c8e6c2f3f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Yello.mat using Guid(13a36355d7d140b4c9f4c8e6c2f3f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa26d2f1c570ba2034e4127a8fdf9f31') in 0.649600 seconds
-  Import took 0.772672 seconds .
+  Time since last request: 0.000588 seconds.
+  path: Assets/Utsumi/Pinbooltec/mashu.png
+  artifactKey: Guid(dd2c7e9499975c8409afdf5f6813f2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/mashu.png using Guid(dd2c7e9499975c8409afdf5f6813f2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5749813e8a448035d5e7e7668deb898') in 0.134834 seconds
+  Import took 0.155551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1137.408421 seconds.
-  path: Assets/Utsumi/Oder/Bul.mat
-  artifactKey: Guid(197705eaf09997740984dd89d19b7726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Bul.mat using Guid(197705eaf09997740984dd89d19b7726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79e892c3783bd6c49e9f95448b92ac9') in 0.169472 seconds
-  Import took 0.177913 seconds .
+  Time since last request: 0.000444 seconds.
+  path: Assets/Utsumi/Pinbooltec/Island.png
+  artifactKey: Guid(379557330373a9e478f7d060133db687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/Island.png using Guid(379557330373a9e478f7d060133db687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da47255449ab447ca4fe3ca771932d27') in 0.136067 seconds
+  Import took 0.144584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.713149 seconds.
-  path: Assets/Utsumi/Oder/Red.mat
-  artifactKey: Guid(63fe77e4c93f12e4d8752deabca706f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Red.mat using Guid(63fe77e4c93f12e4d8752deabca706f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabc66c2b6e4b9b495387ca0e532f6a7') in 0.275613 seconds
-  Import took 0.279493 seconds .
+  Time since last request: 0.000438 seconds.
+  path: Assets/Utsumi/Pinbooltec/hoe-ru.png
+  artifactKey: Guid(197e824536292b3468768a4f6643ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/hoe-ru.png using Guid(197e824536292b3468768a4f6643ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d056bf5072d0e0da849cb635155386') in 0.150998 seconds
+  Import took 0.170898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 531.276725 seconds.
-  path: Assets/Utsumi/Oder/Bul.mat
-  artifactKey: Guid(197705eaf09997740984dd89d19b7726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Bul.mat using Guid(197705eaf09997740984dd89d19b7726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5947fa74709f98e1d4a091558565b2') in 0.296897 seconds
-  Import took 0.303216 seconds .
+  Time since last request: 0.000504 seconds.
+  path: Assets/Utsumi/Pinbooltec/3Brock.png
+  artifactKey: Guid(839dde920230fcd4dbe2821c7eba107d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/3Brock.png using Guid(839dde920230fcd4dbe2821c7eba107d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063ddb9f58d207023a1b6391dc90a5d9') in 0.136540 seconds
+  Import took 0.168648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Utsumi/Oder/Red.mat
-  artifactKey: Guid(63fe77e4c93f12e4d8752deabca706f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Red.mat using Guid(63fe77e4c93f12e4d8752deabca706f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84ba2c46a3a2574a94c58946b2c87a8') in 0.318109 seconds
-  Import took 0.324024 seconds .
+  Time since last request: 0.000463 seconds.
+  path: Assets/Utsumi/Pinbooltec/Brock1.png
+  artifactKey: Guid(60e4d3e871cf1b74e92a9679898b00b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Pinbooltec/Brock1.png using Guid(60e4d3e871cf1b74e92a9679898b00b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bf73ab5da8187dd9f2b87f95775053') in 0.123401 seconds
+  Import took 0.139976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Utsumi/Oder/Yello.mat
-  artifactKey: Guid(13a36355d7d140b4c9f4c8e6c2f3f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Utsumi/Oder/Yello.mat using Guid(13a36355d7d140b4c9f4c8e6c2f3f48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c255fd0386d4721aad51122f217db45f') in 0.284520 seconds
-  Import took 0.288452 seconds .
+  Time since last request: 3.331434 seconds.
+  path: Assets/Utsumi/Sence/GameOverSean(U).unity
+  artifactKey: Guid(26c975ad521b5a4428a6626a461c6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Sence/GameOverSean(U).unity using Guid(26c975ad521b5a4428a6626a461c6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b973198023dbd29a83d2e1ad7471abe') in 0.062467 seconds
+  Import took 0.097899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.683565 seconds.
+  path: Assets/Utsumi/Oder/Bul2.mat
+  artifactKey: Guid(6f97b28ab20ec0742bde48f8f5ca02a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Bul2.mat using Guid(6f97b28ab20ec0742bde48f8f5ca02a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a63ea53bdbb7ead63a4f7faa759a1c') in 0.107443 seconds
+  Import took 0.140915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.155326 seconds.
+  path: Assets/Utsumi/Oder/Black.mat
+  artifactKey: Guid(ea02723a15b17844eb94a66c86c12c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Black.mat using Guid(ea02723a15b17844eb94a66c86c12c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db6d764091d1edad0d77d270dfe5d00') in 0.097327 seconds
+  Import took 0.128912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.724376 seconds.
+  path: Assets/Utsumi/GameOver.fbx
+  artifactKey: Guid(d92e9e081dbe23a4abcbbd20105fafa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/GameOver.fbx using Guid(d92e9e081dbe23a4abcbbd20105fafa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd79903559b7333db401568ede90e0fe') in 0.239559 seconds
+  Import took 0.268381 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
