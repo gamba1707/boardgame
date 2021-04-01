@@ -6,12 +6,12 @@ public class ReStart : MonoBehaviour
 {
     public GameObject Ball;
     Vector3 StartPos;
-    Quaternion StartRot;
+    //Quaternion StartRot;
     // Start is called before the first frame update
     void Start()
     {
         StartPos = new Vector3(14,-21,-7);
-        StartRot = new Quaternion();
+        //StartRot = new Quaternion();
         Ball = GameObject.FindGameObjectWithTag ("ball");
     }
 

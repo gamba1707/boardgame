@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Score_shimura : MonoBehaviour
+public class BallLimit : MonoBehaviour
 {
-    public TextMeshProUGUI ScoreText;
+    public TextMeshProUGUI BallText;
     // Start is called before the first frame update
     void Start()
     {
-        ScoreText.text = "Score\n" + score.point.ToString();
+        BallText.text = "Limit\n" + gameover.ball.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Score\n" + score.point.ToString();
+        BallText.text = "Limit\n" + gameover.ball.ToString();
     }
 }
