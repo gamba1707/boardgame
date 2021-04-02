@@ -9,6 +9,7 @@ public class BallLimit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (gameover.ball == 0) gameover.ball = 3;
         BallText.text = "Limit\n" + gameover.ball.ToString();
     }
 
