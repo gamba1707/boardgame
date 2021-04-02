@@ -79,6 +79,7 @@
     <Compile Include="Assets\NCMB\Script\NCMBAppleAuthenManager.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBCallback.cs" />
     <Compile Include="Assets\Shimura\Assets\Script\ReStart.cs" />
+    <Compile Include="Assets\Shimura\Assets\Script\Bound.cs" />
     <Compile Include="Assets\NCMB\Script\MiniJSON.cs" />
     <Compile Include="Assets\Shimura\Assets\Script\GetPoint.cs" />
     <Compile Include="Assets\NCMB\NCMBSettings.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\gamba1707\score.cs" />
     <Compile Include="Assets\naichilab\unity-simple-ranking\Sample\SampleSceneManager.cs" />
     <Compile Include="Assets\Utsumi\Oder\Friper.cs" />
+    <Compile Include="Assets\gamba1707\Loading.cs" />
     <Compile Include="Assets\naichilab\unity-simple-ranking\Scripts\IScore.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBScriptTaskExtension.cs" />
     <Compile Include="Assets\Shimura\Assets\Script\Score_shimura.cs" />
@@ -110,6 +112,7 @@
     <Compile Include="Assets\gamba1707\ball.cs" />
     <Compile Include="Assets\gamba1707\side.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBUserTaskExtension.cs" />
+    <Compile Include="Assets\Shimura\Assets\Script\BallLimit.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBScript.cs" />
     <Compile Include="Assets\Utsumi\Oder\Rotation.cs" />
     <Compile Include="Assets\Shimura\Assets\Script\Right_Yrotation1.cs" />

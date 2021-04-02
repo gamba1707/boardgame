@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Utsumi/Sence/GameOverSean(U).unity
+- path: Assets/Utsumi/UtsumiScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
