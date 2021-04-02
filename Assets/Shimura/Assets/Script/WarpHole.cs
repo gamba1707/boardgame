@@ -19,12 +19,12 @@ public class WarpHole : MonoBehaviour
         Ball = GameObject.FindGameObjectWithTag("ball");
 
         //ワープ先のシーンを決定させる
-        GoToScene = Random.Range(0, 2);
+        GoToScene = Random.Range(1, 4);
         for (; GoToScene == WarpHoleNumber;)
         {
             //変数がFloat型の場合Random.Range(0, 3)は0以上3以下の値をかえす
             //変数がInt型の場合Random.Range(0, 3)は0以上3未満の値をかえす
-            GoToScene = Random.Range(0, 3);
+            GoToScene = Random.Range(1, 4);
         }
         Debug.Log("ワープ先;"+GoToScene);
     }
