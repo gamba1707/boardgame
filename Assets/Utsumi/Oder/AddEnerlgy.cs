@@ -21,7 +21,9 @@ public class AddEnerlgy : MonoBehaviour
     {
         if (this.gameObject.transform.position.y <= -20)
         {
-            this.gameObject.transform.position = vec;
+            this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            this.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            this.gameObject.transform.localPosition = vec;
         }
 
         if (s)
