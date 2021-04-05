@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Utsumi/Sence/StartSean(U).unity
     guid: c9fa24a5b8c66214ebf0496d267649e7
   - enabled: 1
-    path: Assets/Shimura/Assets/Scenes/Stage1.unity
-    guid: 57acccbcb7e91414bb4c949bcefb3d01
-  - enabled: 1
     path: Assets/Utsumi/UtsumiScene.unity
     guid: a32b60e34f22a9446a0d31132258c109
   - enabled: 1
     path: Assets/gamba1707/Scenes/gambaScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Shimura/Assets/Scenes/Stage1.unity
+    guid: 57acccbcb7e91414bb4c949bcefb3d01
+  - enabled: 1
+    path: Assets/gamba1707/Scenes/10.unity
+    guid: e4694fe5580084a4c852420dc10b7ed6
   - enabled: 1
     path: Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity
     guid: 152244f5855414ac4a3874f14efa583c
