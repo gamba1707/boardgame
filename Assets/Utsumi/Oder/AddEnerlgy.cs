@@ -10,6 +10,8 @@ public class AddEnerlgy : MonoBehaviour
     public GameObject gam;
     public bool s;
     public Vector3 vec;
+    [SerializeField, Range(0, 1000)] public int Range;
+    public int counter;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,12 @@ public class AddEnerlgy : MonoBehaviour
     {
         if (this.gameObject.transform.position.y <= -20)
         {
-            this.gameObject.transform.position = vec;
+            this.gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            this.gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            this.gameObject.transform.localPosition = vec;
         }
+        if (Input.GetKey(KeyCode.Q)) { gam.GetComponent<Rigidbody>().AddForce(new Vector3(Random.Range(-1,2)*Range, 0, 0)); counter++; if (counter >= 10) { score.point-=10000; } }
+        
 
         if (s)
         {

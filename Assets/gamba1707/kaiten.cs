@@ -5,11 +5,13 @@ using UnityEngine;
 public class kaiten : MonoBehaviour
 {
     bool comeball;
+    Vector3 pos;
     float y, z;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine("root");
+        pos = transform.position;
         y = gameObject.transform.localEulerAngles.y;
         z = gameObject.transform.localEulerAngles.z;
     }
@@ -39,6 +41,7 @@ public class kaiten : MonoBehaviour
             else
             {
                 yield return new WaitForSeconds(1.5f);
+                transform.position = pos;
                 transform.rotation = Quaternion.Euler(0, y, z);
             }
             yield return null;

@@ -31,7 +31,7 @@ public class score : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag.Equals("ball"))
+        if (collision.gameObject.name.Equals("ball"))
         {
             if(gameObject.name.Equals("0500")&& gameObject.name.Equals("1500")) point += int.Parse(gameObject.name.Substring(0, 4))*re_side.lightstate;
             else point += int.Parse(gameObject.name.Substring(0, 4));
@@ -42,7 +42,7 @@ public class score : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag.Equals("ball"))
+        if (other.gameObject.name.Equals("ball"))
         {
             point += int.Parse(gameObject.name.Substring(0, 4));
             namecheck(gameObject.name);

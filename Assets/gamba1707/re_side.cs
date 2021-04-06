@@ -44,6 +44,7 @@ public class re_side : MonoBehaviour
         }
         if (gameObject.name.Substring(0, 1).Equals("e"))
         {
+            if (entercount == 0 || entercount == 3 || entercount == 6) GetComponent<Renderer>().material = yellowoff;
             if (entercount < 3)
             {
                 lightstate = 1;
@@ -69,13 +70,14 @@ public class re_side : MonoBehaviour
                         zero();
                     }
                 }
-                if (entercount == 0 || entercount == 3 || entercount == 6) GetComponent<Renderer>().material = yellowoff;
+                
             }
         }
     }
     void zero()
     {
         statetime = 0;
+        GetComponent<Renderer>().material = yellowoff;
         Debug.Log("enter:"+entercount);
         if (entercount == 0)
         {

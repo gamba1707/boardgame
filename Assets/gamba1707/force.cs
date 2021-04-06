@@ -30,7 +30,7 @@ public class force : MonoBehaviour
             if (ballon)
             {
                 Debug.Log("wow!");
-                ballrb.velocity=new Vector3(0,0,x*30);
+                ballrb.velocity=new Vector3(0,0,x*35);
             }
             x = 0;
             StartCoroutine("back");

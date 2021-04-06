@@ -13,7 +13,7 @@ public class CountScore : MonoBehaviour
     [SerializeField] public GameObject[] Digit6 = new GameObject[10];
     [SerializeField] public GameObject[] Digit7 = new GameObject[10];
     [SerializeField] public GameObject[] Digit8 = new GameObject[10];
-    
+    [SerializeField] public GameObject[] Zan = new GameObject[10];
     public GameObject Real0;
     public GameObject Real1;
     public GameObject Real2;
@@ -58,6 +58,7 @@ public class CountScore : MonoBehaviour
         a = MYscore % 1000000000 - a;
         for (int i = 0; i < 10; i++)
         {
+            if (gameover.ball == i) { Zan[i].SetActive(true); } else { Zan[i].SetActive(false); }
             if (Digit0[i]== Real0) { Digit0[i].SetActive(true); } else { Digit0[i].SetActive(false); }
             if (Digit1[i] == Real1) { Digit1[i].SetActive(true); } else { Digit1[i].SetActive(false); }
             if (Digit2[i] == Real2) { Digit2[i].SetActive(true); } else { Digit2[i].SetActive(false); }

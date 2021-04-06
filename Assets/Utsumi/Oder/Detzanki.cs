@@ -10,8 +10,8 @@ public class Detzanki : MonoBehaviour
     void Start()
     {
 
-        zanki=gameover.ball;
-        zanki = 3;
+        
+        
     }
 
     // Update is called once per frame
@@ -23,8 +23,8 @@ public class Detzanki : MonoBehaviour
     {
         if (collision.gameObject.tag == "ball")
         {
-            zanki--;
-            if (zanki <= 0)
+            gameover.ball--;
+            if (gameover.ball <= 0)
             {
                 naichilab.RankingLoader.Instance.SendScoreAndShowRanking(score.point);
             }

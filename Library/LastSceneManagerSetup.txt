@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Shimura/Assets/Scenes/Stage1.unity
+=======
+- path: Assets/gamba1707/Scenes/gambaScene.unity
+>>>>>>> 898755c3cfdab1c120393516068809841be93c90
   isLoaded: 1
   isActive: 1
   isSubScene: 0
