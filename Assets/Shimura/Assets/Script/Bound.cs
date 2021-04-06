@@ -22,9 +22,9 @@ public class Bound : MonoBehaviour
     {
         if (collision.gameObject.tag == "BoundObj")
         {
-            x = rb.velocity.x * 1.5f;
-            y = rb.velocity.x * 1.5f;
-            z = -rb.velocity.z * 1.5f;
+            x = rb.velocity.x * 5f;
+            y = rb.velocity.x * 5f;
+            //z = -rb.velocity.z * 5f;
             if (x > 100) x = 30;
             if (x < -100) x = -30;
             if (y > 100) y = 30;

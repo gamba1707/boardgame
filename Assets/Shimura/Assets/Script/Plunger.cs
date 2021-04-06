@@ -81,6 +81,7 @@ public class Plunger : MonoBehaviour
         gameObject.transform.position = pos;
         if (pos.y >= normalpos.y&&pos.z>=normalpos.z)PositionSwicth = false;
         //FiringSwicth = true;
+        CommentText.Comment = "発射！！";
     }
 
     void OnCollisionEnter(Collision coll)
@@ -90,5 +91,6 @@ public class Plunger : MonoBehaviour
     void OnCollisionExit(Collision coll)
     {
         FiringSwicth = false;
+        
     }
 }

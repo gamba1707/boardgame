@@ -22,6 +22,7 @@ public class GetPoint : MonoBehaviour
         if (collision.gameObject.tag.Equals("ball"))
         {
             score.point += point;
+            CommentText.Comment = point.ToString()+"\nポイントゲット";
         }
     }
 }

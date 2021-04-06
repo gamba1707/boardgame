@@ -73,6 +73,7 @@ public class Fliper_left : MonoBehaviour
         transform.DORotate(new Vector3(0, 0, 50), actiontime / 2, RotateMode.LocalAxisAdd);
         UpSwitch = false;
         Debug.Log(ActionSwitch);
+        CommentText.Comment = "打て！！";
     }
 
     void FlipDown()

@@ -31,6 +31,18 @@ public class ReStart : MonoBehaviour
 
             Ball.transform.position = StartPos;
             Ball = GameObject.FindGameObjectWithTag("ball");
+            gameover.ball -= 1;
+
+            //if(gameover.ball<0)gameover処理
+
+            if (gameover.ball == 0)
+            {
+                CommentText.Comment = "ラストチャンスだ！！";
+            }
+            else
+            {
+                CommentText.Comment = "もう一回だ！！";
+            }
         }
     }
 }
