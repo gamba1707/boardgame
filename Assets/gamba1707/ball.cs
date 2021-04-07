@@ -16,7 +16,7 @@ public class ball : MonoBehaviour
     {
         //Debug.Log("ballvelocity:"+rb.velocity);
         //rb.velocity = new Vector3(0, 0, -5);
-        if (gameObject.transform.localPosition.y <= -10f)
+        if (gameObject.transform.localPosition.y <= -5f)
         {
             gameObject.transform.position = new Vector3(5.8f, 4.6f, -9.1f);
             score.namecheck("bag");

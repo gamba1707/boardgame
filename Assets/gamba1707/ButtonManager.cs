@@ -21,4 +21,8 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("Stage1");
     }
+    public void OnAnotherStartScene()
+    {
+        SceneManager.LoadScene("StartSean(U)");
+    }
 }

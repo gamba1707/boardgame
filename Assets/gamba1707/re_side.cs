@@ -9,9 +9,11 @@ public class re_side : MonoBehaviour
     public static int lcount, rcount, entercount, lightstate;
     static float statetime;
     public Material yellowoff, yellowon;
+    private AudioSource sound01;
     // Start is called before the first frame update
     void Start()
     {
+        sound01 = GetComponent<AudioSource>();
         lights = GameObject.FindGameObjectsWithTag("light");
         lightstate = 1;
         GetComponent<Renderer>().material = yellowoff;
@@ -130,6 +132,7 @@ public class re_side : MonoBehaviour
                 {
                     lcount++;
                     score.addpoint(700);
+                    sound01.PlayOneShot(sound01.clip);
                     score.namecheck("L");
                     Debug.Log(lcount);
                     GetComponent<Renderer>().material = yellowon;
@@ -138,6 +141,7 @@ public class re_side : MonoBehaviour
                 {
                     rcount++;
                     score.addpoint(700);
+                    sound01.PlayOneShot(sound01.clip);
                     score.namecheck("R");
                     Debug.Log(rcount);
                     GetComponent<Renderer>().material = yellowon;
@@ -146,6 +150,7 @@ public class re_side : MonoBehaviour
                 {
                     entercount++;
                     score.addpoint(2000);
+                    sound01.PlayOneShot(sound01.clip);
                     score.namecheck("enter");
                     zero();
                     GetComponent<Renderer>().material = yellowon;
@@ -153,6 +158,7 @@ public class re_side : MonoBehaviour
                 if (gameObject.name.Substring(0, 1).Equals("c"))
                 {
                     score.addpoint(1500);
+                    sound01.PlayOneShot(sound01.clip);
                     score.namecheck("ca-bu");
                     GetComponent<Renderer>().material = yellowon;
                 }

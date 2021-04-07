@@ -40,7 +40,7 @@ public class force : MonoBehaviour
             if (x <= 1)
             {
                 x += 0.001f;
-                transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.001f);
+                transform.Translate(0,0,-0.001f);
             }
         }
     }

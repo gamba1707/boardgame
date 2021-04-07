@@ -7,6 +7,9 @@ public class Play2 : MonoBehaviour
     public GameObject R_jiku, L_jiku;
     HingeJoint jR,jL;
     JointSpring jsR,jsL;
+    AudioSource audioSource;
+    public AudioClip upsound;
+    public AudioClip downsound;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,11 +17,14 @@ public class Play2 : MonoBehaviour
         jsL = jL.spring;
         jR = R_jiku.GetComponent<HingeJoint>();
         jsR = jR.spring;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("L")) audioSource.PlayOneShot(upsound);
+        if (Input.GetButtonDown("R")) audioSource.PlayOneShot(upsound);
         if (Input.GetButton("L"))
         {
             Debug.Log("ok");
@@ -31,6 +37,7 @@ public class Play2 : MonoBehaviour
             jsL.spring = 40000;
             jsL.targetPosition = 0;
             jL.spring = jsL;
+            audioSource.PlayOneShot(downsound);
         }
         if (Input.GetButton("R"))
         {
@@ -43,6 +50,7 @@ public class Play2 : MonoBehaviour
             jsR.spring = 40000;
             jsR.targetPosition = 0;
             jR.spring = jsR;
+            audioSource.PlayOneShot(downsound);
         }
     }
 }

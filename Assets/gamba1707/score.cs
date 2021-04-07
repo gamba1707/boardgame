@@ -9,9 +9,11 @@ public class score : MonoBehaviour
     public static int point;
     TextMeshProUGUI scoretext;
     static Text messagetext;
+    private AudioSource sound01;
     // Start is called before the first frame update
     void Start()
     {
+        sound01 = GetComponent<AudioSource>();
         if (this.gameObject.tag.Equals("scoretext")) scoretext = gameObject.GetComponent<TextMeshProUGUI>();
         if (this.gameObject.tag.Equals("messagetext")) messagetext = gameObject.GetComponent<Text>();
     }
@@ -35,6 +37,7 @@ public class score : MonoBehaviour
         {
             if(gameObject.name.Equals("0500")&& gameObject.name.Equals("1500")) point += int.Parse(gameObject.name.Substring(0, 4))*re_side.lightstate;
             else point += int.Parse(gameObject.name.Substring(0, 4));
+            sound01.PlayOneShot(sound01.clip);
             namecheck(gameObject.name);
             Debug.Log("point:" + point);
         }
