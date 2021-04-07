@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.906; Version 2009; 64bit' Language: 'ja' Physical Memory: 8006 MB
+OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'ja' Physical Memory: 24510 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,76 +11,508 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/tshow/GDP/Piball_Integration/boardgame
+C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55979
-Successfully changed project path to: C:/Users/tshow/GDP/Piball_Integration/boardgame
-C:/Users/tshow/GDP/Piball_Integration/boardgame
+50631
+Successfully changed project path to: C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
+C:/Users/Sogo/Desktop/Unity/boardgame/boardgame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tshow/GDP/Piball_Integration/boardgame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Sogo/Desktop/Unity/boardgame/boardgame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX150 (ID=0x1d12)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     1983 MB
-    Driver:   27.21.14.5763
+    VRAM:     6052 MB
+    Driver:   27.21.14.6589
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006765 seconds.
+Registered in 0.002770 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.07 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.373 seconds
+- Completed reload, in  1.162 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007868 seconds.
+Registered in 0.002053 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.846 seconds
+- Completed reload, in  0.835 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.9 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 1895.
-Total: 3.777600 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.074500 ms MarkObjects: 2.834100 ms  DeleteObjects: 0.610000 ms)
+Total: 2.039900 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.539500 ms  DeleteObjects: 0.302300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Shimura/Assets/Scenes/Stage1.unity
-  artifactKey: Guid(57acccbcb7e91414bb4c949bcefb3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shimura/Assets/Scenes/Stage1.unity using Guid(57acccbcb7e91414bb4c949bcefb3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90014e7a4ebf4e98cb26718c6ad2c303') in 0.030725 seconds
-  Import took 0.036214 seconds .
+  path: Assets/gamba1707
+  artifactKey: Guid(7f9aaef4b07feec408d0568259424907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707 using Guid(7f9aaef4b07feec408d0568259424907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dbbabf1fa0a5d6735a8137172c3bcf') in 0.005270 seconds
+  Import took 0.007671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/gamba1707/bord.fbx
+  artifactKey: Guid(ac39abff4f73d0749967d7a2a6cc90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/bord.fbx using Guid(ac39abff4f73d0749967d7a2a6cc90a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56696a2f00fe6c99672a20d355fa573b') in 0.439147 seconds
+  Import took 0.442291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.079109 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd684651822457c464752d65d2a5e3749') in 0.008584 seconds
+  Import took 0.011667 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.088500 ms (FindLiveObjects: 0.182000 ms CreateObjectMapping: 0.063300 ms MarkObjects: 1.554800 ms  DeleteObjects: 0.287100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.898317 seconds.
+  path: Assets/Utsumi
+  artifactKey: Guid(151eacfe1d01a9b4db366d26acbf3ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi using Guid(151eacfe1d01a9b4db366d26acbf3ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f027b64d59567b63455c0ccc95d09d') in 0.011100 seconds
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.903769 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664d71327ca97fa0239f67e30082d7e9') in 0.012467 seconds
+  Import took 0.015185 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 1.898800 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.366600 ms  DeleteObjects: 0.324500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 1.832700 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.348800 ms  DeleteObjects: 0.278100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1271.063846 seconds.
+  path: Assets/gamba1707/score.cs
+  artifactKey: Guid(af6657a62737e304ab356719e583df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/score.cs using Guid(af6657a62737e304ab356719e583df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b03132e93d8533c3888554836d2d316') in 0.016254 seconds
+  Import took 0.019574 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 3.960500 ms (FindLiveObjects: 0.409500 ms CreateObjectMapping: 0.174200 ms MarkObjects: 2.979300 ms  DeleteObjects: 0.396100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.742701 seconds.
+  path: Assets/Utsumi/Oder/Score2.cs
+  artifactKey: Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Utsumi/Oder/Score2.cs using Guid(6bfff2abcb2de3043b55476a87e624b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13453cf0af60b47f67d225fb81a5394d') in 0.010622 seconds
+  Import took 0.013350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.210900 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.659400 ms  DeleteObjects: 0.297200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.917502 seconds.
+  path: Assets/gamba1707/Scenes/Start.unity
+  artifactKey: Guid(f977242424e41924d84015c59a816bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/Start.unity using Guid(f977242424e41924d84015c59a816bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6578fd86977b873bc3f15d2d3b7d0ad') in 0.018482 seconds
+  Import took 0.021087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.413354 seconds.
+  path: Assets/gamba1707/gameover.cs
+  artifactKey: Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/gameover.cs using Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadbe010c993e50c85c1a46e86436ef5') in 0.008339 seconds
+  Import took 0.012177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032997 seconds.
+  path: Assets/gamba1707/gameover.cs
+  artifactKey: Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/gameover.cs using Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadbe010c993e50c85c1a46e86436ef5') in 0.004137 seconds
+  Import took 0.007566 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 2.715800 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.046200 ms MarkObjects: 2.053900 ms  DeleteObjects: 0.297800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.846471 seconds.
+  path: Assets/gamba1707/gameover.cs
+  artifactKey: Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/gameover.cs using Guid(97f49bd2a894bc243a0e4045ca714ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d637fc7ded66c8b99ac048ecd775f') in 0.005461 seconds
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.458292 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4234fc848e6cb36588f333b5b0fb5b4c') in 0.014256 seconds
+  Import took 0.017041 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001978 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 3.090800 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.194300 ms  DeleteObjects: 0.660000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1301.022437 seconds.
+  path: Assets/gamba1707/10yen
+  artifactKey: Guid(23ee68d78b4bf8c429a57cdf000f7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/10yen using Guid(23ee68d78b4bf8c429a57cdf000f7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286a2bd164a5af38019912f4cf7c0112') in 0.013036 seconds
+  Import took 0.016864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034741 seconds.
+  path: Assets/gamba1707/10yen/1yen.prefab
+  artifactKey: Guid(3dfdf07e7c62f7749adb4b832f889499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/10yen/1yen.prefab using Guid(3dfdf07e7c62f7749adb4b832f889499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd5e0d70079510660c9719786ef67e0') in 0.095262 seconds
+  Import took 0.099503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/gamba1707/10yen/10yen.fbx
+  artifactKey: Guid(c30bf76c3665a124eb80b81c39f08682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/10yen/10yen.fbx using Guid(c30bf76c3665a124eb80b81c39f08682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586414757f0e37d72a5b2dcede1aa759') in 0.247589 seconds
+  Import took 0.250607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.533097 seconds.
+  path: Assets/gamba1707/10yen/yenplay.cs
+  artifactKey: Guid(6fbc5618754eb6b4b80f674b187d2727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/10yen/yenplay.cs using Guid(6fbc5618754eb6b4b80f674b187d2727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876643aa24ac60797a4f8a71eaa1fd9e') in 0.009131 seconds
+  Import took 0.011994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031683 seconds.
+  path: Assets/gamba1707/10yen/yenplay.cs
+  artifactKey: Guid(6fbc5618754eb6b4b80f674b187d2727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/10yen/yenplay.cs using Guid(6fbc5618754eb6b4b80f674b187d2727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876643aa24ac60797a4f8a71eaa1fd9e') in 0.003947 seconds
+  Import took 0.007985 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.012200 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.499100 ms  DeleteObjects: 0.330300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.301149 seconds.
+  path: Assets/gamba1707/Start movie
+  artifactKey: Guid(fc3f8ddcc1f387e42af468e7f93e4209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Start movie using Guid(fc3f8ddcc1f387e42af468e7f93e4209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92e266bcc2508bad4a62390fcdd6fed') in 0.012350 seconds
+  Import took 0.015513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596956 seconds.
+  path: Assets/gamba1707/Scenes/10.unity
+  artifactKey: Guid(e4694fe5580084a4c852420dc10b7ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/10.unity using Guid(e4694fe5580084a4c852420dc10b7ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4659facd6a3860aa996b47464096ab') in 0.015227 seconds
+  Import took 0.017797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.961021 seconds.
+  path: Assets/gamba1707/force.cs
+  artifactKey: Guid(4e205d8fa8cbac44ba833da9fe525cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/force.cs using Guid(4e205d8fa8cbac44ba833da9fe525cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4749beb7d1bd7202c3f1401efd49d084') in 0.009968 seconds
+  Import took 0.012354 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1967.
+Total: 2.079700 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.446400 ms  DeleteObjects: 0.402600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.112770 seconds.
+  path: Assets/gamba1707/Scenes/Start.unity
+  artifactKey: Guid(f977242424e41924d84015c59a816bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/Start.unity using Guid(f977242424e41924d84015c59a816bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1121a290f845667f38e290b568424fc') in 0.014062 seconds
+  Import took 0.017073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.254376 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28facf3a39e98f838dbd7d8459cc1ed') in 0.008829 seconds
+  Import took 0.011808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.249859 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity
+  artifactKey: Guid(152244f5855414ac4a3874f14efa583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity using Guid(152244f5855414ac4a3874f14efa583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fafe6cc60a3ce67f0d36ff604ebcf73') in 0.008658 seconds
+  Import took 0.011664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity
+  artifactKey: Guid(152244f5855414ac4a3874f14efa583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/naichilab/unity-simple-ranking/Scenes/Ranking.unity using Guid(152244f5855414ac4a3874f14efa583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fafe6cc60a3ce67f0d36ff604ebcf73') in 0.005963 seconds
+  Import took 0.010355 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.5 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 2.081600 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.539300 ms  DeleteObjects: 0.304800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.742353 seconds.
+  path: Assets/gamba1707/Scenes/gambaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gamba1707/Scenes/gambaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db628afbefc8d984f2001815d2c06c49') in 0.017127 seconds
+  Import took 0.019980 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

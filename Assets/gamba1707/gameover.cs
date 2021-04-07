@@ -11,7 +11,7 @@ public class gameover : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ball=PlayerPrefs.GetInt("ball",3);
+        //ball=PlayerPrefs.GetInt("ball",3);
     }
 
     // Update is called once per frame
@@ -30,6 +30,7 @@ public class gameover : MonoBehaviour
             {
                 Destroy(other.gameObject);
                 panel.SetActive(true);
+                WarpManager.WarpSwicth = false;
                 naichilab.RankingLoader.Instance.SendScoreAndShowRanking(score.point);
             }
         }

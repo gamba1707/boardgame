@@ -7,6 +7,7 @@ public class ButtonManager : MonoBehaviour
 {
     public void OnStartScene()
     {
+        
         SceneManager.LoadScene("Start");
     }
     public void OnUtsumiScene()

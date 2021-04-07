@@ -20,7 +20,8 @@ public class Loading : MonoBehaviour
 	public void Start()
 	{
 		stage = Random.Range(0,3);
-		PlayerPrefs.SetInt("ball",3);
+		score.point = 0;
+		gameover.ball = 3;
 		kakusisound01 = GetComponent<AudioSource>();
 		//　コルーチンを開始
 		StartCoroutine("LoadData");
