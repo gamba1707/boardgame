@@ -18,6 +18,17 @@ public class ReStart : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Ball.transform.position.x > 19 
+            || Ball.transform.position.x < -19) start();
+
+        if (Ball.transform.position.y > 18
+            || Ball.transform.position.y < -36) start();
+    }
+
+    void start()
+    {
+        Ball.transform.position = StartPos;
+        Ball = GameObject.FindGameObjectWithTag("ball");
         
     }
 
@@ -29,10 +40,8 @@ public class ReStart : MonoBehaviour
             //Destroy(Ball);
             //Instantiate(Ball, StartPos, StartRot);
 
-            Ball.transform.position = StartPos;
-            Ball = GameObject.FindGameObjectWithTag("ball");
-            gameover.ball -= 1;
-
+            start();
+gameover.ball -= 1;
             //if(gameover.ball<0)gameover処理
 
             if (gameover.ball == 0)
