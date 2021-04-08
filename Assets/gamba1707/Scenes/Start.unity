@@ -719,7 +719,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &539493028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -978,12 +978,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '02 SpaceCaded
-
-'
+  m_text: "02 SpaceCaded\n(\u3072\u3044\u3089\u304E)\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6e461d76fa154142b4476d49a510659, type: 2}
+  m_sharedMaterial: {fileID: -4255091954588899972, guid: b6e461d76fa154142b4476d49a510659,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1007,7 +1006,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 66.35
+  m_fontSize: 52.5
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1261,7 +1260,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\u5236\u4F5C\n\u3000TGC2021\u30002\u5E74\u751F\u7B2C2\u30B0\u30EB\u30FC\u30D7\uFF08\u65B03\u5E74\u751F\uFF09\n\u30D0\u30FC\u30B8\u30E7\u30F3\u5C65\u6B74\n\u3000Ver
-    1.0\u3000\u521D\u7248\u30002021\u5E744\u67087\u65E5\n\n\u30B9\u30C6\u30FC\u30B8\u30BB\u30EC\u30AF\u30C8\n\n\n\n???\n\u3000\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u3067A\u3068D\u3092\u540C\u6642\u62BC\u3057\u3059\u308B\u3068\u30FB\u30FB\u30FB?"
+    1.1\u30002021\u5E744\u67088\u65E5\n\u3000Ver 1.0\u3000\u521D\u7248\u30002021\u5E744\u67087\u65E5\n\u30B9\u30C6\u30FC\u30B8\u30BB\u30EC\u30AF\u30C8\n\n\n\n???\n\u3000\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u3067A\u3068D\u3092\u540C\u6642\u62BC\u3057\u3059\u308B\u3068\u30FB\u30FB\u30FB?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b6e461d76fa154142b4476d49a510659, type: 2}
   m_sharedMaterial: {fileID: -4255091954588899972, guid: b6e461d76fa154142b4476d49a510659,
@@ -1396,10 +1395,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 03 ShimuraScene
+  m_text: '03 Tropical
+
+    (SIM)'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6e461d76fa154142b4476d49a510659, type: 2}
+  m_sharedMaterial: {fileID: -4255091954588899972, guid: b6e461d76fa154142b4476d49a510659,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1423,7 +1425,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.7
+  m_fontSize: 52.5
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2137,10 +2139,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 01 Toropical
+  m_text: "01 Southisland\n(\u6D77\u4E2D)"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b6e461d76fa154142b4476d49a510659, type: 2}
+  m_sharedMaterial: {fileID: -4255091954588899972, guid: b6e461d76fa154142b4476d49a510659,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2164,7 +2167,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 52.5
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2574,7 +2577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ver 1.0
+  m_text: Ver 1.1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
