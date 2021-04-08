@@ -14,12 +14,15 @@ public class Fliper_left : MonoBehaviour
     public GameObject Ball;
     Rigidbody BallRb;
     public Vector3 AddPower;
+    //AudioClip SE;
+    AudioSource audiosource;
     void Start()
     {
         ActionSwitch = false;
         UpSwitch = false;
         DownSwitch = false;
         PowerSwitch = false;
+        audiosource = GetComponent<AudioSource>();
 
     }
 
@@ -74,6 +77,8 @@ public class Fliper_left : MonoBehaviour
         UpSwitch = false;
         Debug.Log(ActionSwitch);
         CommentText.Comment = "打て！！";
+
+        audiosource.Play();
     }
 
     void FlipDown()

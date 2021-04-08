@@ -15,13 +15,16 @@ public class Fliper_right : MonoBehaviour
     public GameObject Ball;
     Rigidbody BallRb;
     public Vector3 AddPower;
+    AudioSource audiosource;
+    //public AudioClip SE;
     void Start()
     {
         ActionSwitch = false;
         UpSwitch = false;
         DownSwitch = false;
         PowerSwitch = false;
-
+        audiosource = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -75,6 +78,9 @@ public class Fliper_right : MonoBehaviour
         UpSwitch = false;
         Debug.Log(ActionSwitch);
         CommentText.Comment = "打て！！";
+
+        audiosource.Play();
+        //audiosource = GetComponent<AudioSource>();
     }
 
     void FlipDown()

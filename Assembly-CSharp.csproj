@@ -118,6 +118,7 @@
     <Compile Include="Assets\NCMB\Script\Task\NCMBUserTaskExtension.cs" />
     <Compile Include="Assets\Shimura\Assets\Script\BallLimit.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBScript.cs" />
+    <Compile Include="Assets\Shimura\Assets\Script\Gameover_shimura.cs" />
     <Compile Include="Assets\Utsumi\Oder\Rotation.cs" />
     <Compile Include="Assets\Shimura\Assets\Script\Right_Yrotation1.cs" />
     <Compile Include="Assets\Utsumi\Oder\CountScore.cs" />

@@ -16,6 +16,7 @@ public class Plunger : MonoBehaviour
     public float PA;
     public bool PositionSwicth;
     public bool FiringSwicth;
+    AudioSource audiosource;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class Plunger : MonoBehaviour
         PositionSwicth = false;
         FiringSwicth = false;
         normalpos = gameObject.transform.position;
+        audiosource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -35,10 +37,13 @@ public class Plunger : MonoBehaviour
         Vector3 C = new Vector3(0, -ChargeSpeed,-ChargeSpeed);
 
         if (Input.GetKey(KeyCode.Space))
-            PowerCharge(rb,C);      
+            PowerCharge(rb,C);
 
         if (Input.GetKeyUp(KeyCode.Space))
-            PositionSwicth = true;        
+        {
+            PositionSwicth = true;
+            audiosource.Play();
+        }
         
         if (PositionSwicth == true)
             PositionAdjustment(rb);
@@ -68,6 +73,7 @@ public class Plunger : MonoBehaviour
         Rigidbody BallRb = Ball.GetComponent<Rigidbody>();
         BallRb.AddForce(F);
         FiringSwicth = false;
+        
     }
 
     void PositionAdjustment(Rigidbody rb)

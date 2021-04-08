@@ -5,10 +5,11 @@ using UnityEngine;
 public class GetPoint : MonoBehaviour
 {
     public int point;
+    AudioSource audiosource;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audiosource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +24,7 @@ public class GetPoint : MonoBehaviour
         {
             score.point += point;
             CommentText.Comment = point.ToString()+"\nポイントゲット";
+            audiosource.Play();
         }
     }
 }

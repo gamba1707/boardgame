@@ -9,9 +9,9 @@ public class WarpHole : MonoBehaviour
     public int GoToScene;
     public int WarpHoleNumber;
     //WarpHoleNumber
-    //“àŠC‚ª0
+    //“àŠC‚ª2
     //¬–“‚ª1
-    //u‘º‚ª2
+    //u‘º‚ª3
     
     // Start is called before the first frame update
     void Start()

@@ -1,15 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ReStart : MonoBehaviour
 {
     public GameObject Ball;
+    public GameObject Plunger;
+    public GameObject RFliper;
+    public GameObject LFliper;
     Vector3 StartPos;
     //Quaternion StartRot;
     // Start is called before the first frame update
     void Start()
     {
+        Plunger.SetActive(true);
+        RFliper.SetActive(true);
+        LFliper.SetActive(true);
         StartPos = new Vector3(14,-21,-7);
         //StartRot = new Quaternion();
         Ball = GameObject.FindGameObjectWithTag ("ball");
@@ -32,6 +39,11 @@ public class ReStart : MonoBehaviour
         
     }
 
+    void ranking()
+    {
+        naichilab.RankingLoader.Instance.SendScoreAndShowRanking(100);
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "ball")
@@ -40,10 +52,22 @@ public class ReStart : MonoBehaviour
             //Destroy(Ball);
             //Instantiate(Ball, StartPos, StartRot);
 
-            start();
-gameover.ball -= 1;
-            //if(gameover.ball<0)gameover処理
 
+            if (gameover.ball <= 0)
+            {
+
+                ranking();
+                Plunger.SetActive(false);
+                RFliper.SetActive(false);
+                LFliper.SetActive(false);
+                return;
+            }
+            else
+            {
+                start();
+            }
+
+gameover.ball -= 1;
             if (gameover.ball == 0)
             {
                 CommentText.Comment = "ラストチャンスだ！！";
