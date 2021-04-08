@@ -35,8 +35,7 @@ public class ReStart : MonoBehaviour
     void start()
     {
         Ball.transform.position = StartPos;
-        Ball = GameObject.FindGameObjectWithTag("ball");
-        
+        Ball = GameObject.FindGameObjectWithTag("ball");     
     }
 
     void ranking()
